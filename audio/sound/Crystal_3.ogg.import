@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Crystal_3.ogg-b06b8e21dccfd646d0619a074abb6f5f.oggstr"
+
+[deps]
+
+source_file="res://audio/sound/Crystal_3.ogg"
+dest_files=[ "res://.import/Crystal_3.ogg-b06b8e21dccfd646d0619a074abb6f5f.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

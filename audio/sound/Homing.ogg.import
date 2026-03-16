@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Homing.ogg-594cdaddf24d20a7e3db486111e22699.oggstr"
+
+[deps]
+
+source_file="res://audio/sound/Homing.ogg"
+dest_files=[ "res://.import/Homing.ogg-594cdaddf24d20a7e3db486111e22699.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
