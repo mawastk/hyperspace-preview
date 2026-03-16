@@ -3,6 +3,8 @@
 # Hyperspace-preview
 Androidで動作するSmash Hit用のレベルエディターです
 
+![Screenshot](https://github.com/mawastk/hyperspace-preview/blob/ed310c6ec904443012c45610c5596521b3bee871/Screenshot.png?raw=true)
+
 # インストール方法
 Hyperspace, HyperspaceExporter, HyperspaceTesterの３つをインストールしてください
 
