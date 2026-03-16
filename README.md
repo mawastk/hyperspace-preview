@@ -1,7 +1,7 @@
 ![Logo](https://github.com/mawastk/hyperspace-preview/blob/main/image/build/logo_2.png?raw=true)
 
 Please note: This text has been translated from Japanese. You can also read the original readme in its original language.<br>
-日本語版はこちらです：[https://github.com/mawastk/hyperspace-preview/main/README_jp.md](https://github.com/mawastk/hyperspace-preview/blob/42f20cf1d91e4541b4d80ffa7065b554c4f49245/README_jp.md)
+日本語版はこちらです：[https://github.com/mawastk/hyperspace-preview/main/README_jp.md](https://github.com/mawastk/hyperspace-preview/blob/268e3d701e00476892edd0f691670e8b73d2cf98/README_jp.md)
 
 # Hyperspace-preview
 A level editor for Smash Hit that runs on Android
