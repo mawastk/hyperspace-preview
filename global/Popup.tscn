@@ -1,0 +1,4041 @@
+[gd_scene load_steps=227 format=2]
+
+[ext_resource path="res://font/Smash_Hit.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://image/decal/decal063.png" type="Texture" id=2]
+[ext_resource path="res://script/Popup/OpenFile.gd" type="Script" id=3]
+[ext_resource path="res://global/Popup.gd" type="Script" id=4]
+[ext_resource path="res://script/Popup/NewWarning.gd" type="Script" id=5]
+[ext_resource path="res://script/Popup/SegmentError.gd" type="Script" id=6]
+[ext_resource path="res://script/Popup/SaveFile.gd" type="Script" id=7]
+[ext_resource path="res://script/Popup/SegmentOption.gd" type="Script" id=8]
+[ext_resource path="res://script/Popup/About.gd" type="Script" id=9]
+[ext_resource path="res://image/build/logo_2.png" type="Texture" id=10]
+[ext_resource path="res://image/ui/CanvasGirl.png" type="Texture" id=11]
+[ext_resource path="res://image/build/lablogo.png" type="Texture" id=12]
+[ext_resource path="res://script/Template.gd" type="Script" id=13]
+[ext_resource path="res://image/tile/tile000.png" type="Texture" id=14]
+[ext_resource path="res://image/popup/texturepreview.png" type="Texture" id=15]
+[ext_resource path="res://image/tile/tile047.png" type="Texture" id=16]
+[ext_resource path="res://image/tile/tile059.png" type="Texture" id=17]
+[ext_resource path="res://image/tile/tile048.png" type="Texture" id=18]
+[ext_resource path="res://image/tile/tile050.png" type="Texture" id=19]
+[ext_resource path="res://image/tile/tile052.png" type="Texture" id=20]
+[ext_resource path="res://image/tile/tile063.png" type="Texture" id=21]
+[ext_resource path="res://image/tile/tile051.png" type="Texture" id=22]
+[ext_resource path="res://image/tile/tile056.png" type="Texture" id=23]
+[ext_resource path="res://image/tile/tile058.png" type="Texture" id=24]
+[ext_resource path="res://image/tile/tile061.png" type="Texture" id=25]
+[ext_resource path="res://image/tile/tile049.png" type="Texture" id=26]
+[ext_resource path="res://image/tile/tile062.png" type="Texture" id=27]
+[ext_resource path="res://image/tile/tile057.png" type="Texture" id=28]
+[ext_resource path="res://image/tile/tile054.png" type="Texture" id=29]
+[ext_resource path="res://image/tile/tile060.png" type="Texture" id=30]
+[ext_resource path="res://image/tile/tile053.png" type="Texture" id=31]
+[ext_resource path="res://image/tile/tile038.png" type="Texture" id=32]
+[ext_resource path="res://image/tile/tile040.png" type="Texture" id=33]
+[ext_resource path="res://image/tile/tile041.png" type="Texture" id=34]
+[ext_resource path="res://image/tile/tile042.png" type="Texture" id=35]
+[ext_resource path="res://image/tile/tile039.png" type="Texture" id=36]
+[ext_resource path="res://image/tile/tile036.png" type="Texture" id=37]
+[ext_resource path="res://image/tile/tile030.png" type="Texture" id=38]
+[ext_resource path="res://image/tile/tile037.png" type="Texture" id=39]
+[ext_resource path="res://image/tile/tile032.png" type="Texture" id=40]
+[ext_resource path="res://image/tile/tile035.png" type="Texture" id=41]
+[ext_resource path="res://image/tile/tile028.png" type="Texture" id=42]
+[ext_resource path="res://image/tile/tile029.png" type="Texture" id=43]
+[ext_resource path="res://image/tile/tile031.png" type="Texture" id=44]
+[ext_resource path="res://image/tile/tile033.png" type="Texture" id=45]
+[ext_resource path="res://image/tile/tile034.png" type="Texture" id=46]
+[ext_resource path="res://image/tile/tile046.png" type="Texture" id=47]
+[ext_resource path="res://image/tile/tile043.png" type="Texture" id=48]
+[ext_resource path="res://image/tile/tile044.png" type="Texture" id=49]
+[ext_resource path="res://image/tile/tile045.png" type="Texture" id=50]
+[ext_resource path="res://image/tile/tile055.png" type="Texture" id=51]
+[ext_resource path="res://image/tile/tile016.png" type="Texture" id=52]
+[ext_resource path="res://image/tile/tile019.png" type="Texture" id=53]
+[ext_resource path="res://image/tile/tile020.png" type="Texture" id=54]
+[ext_resource path="res://image/tile/tile017.png" type="Texture" id=55]
+[ext_resource path="res://image/tile/tile023.png" type="Texture" id=56]
+[ext_resource path="res://image/tile/tile024.png" type="Texture" id=57]
+[ext_resource path="res://image/tile/tile026.png" type="Texture" id=58]
+[ext_resource path="res://image/tile/tile018.png" type="Texture" id=59]
+[ext_resource path="res://image/tile/tile022.png" type="Texture" id=60]
+[ext_resource path="res://image/tile/tile021.png" type="Texture" id=61]
+[ext_resource path="res://image/tile/tile025.png" type="Texture" id=62]
+[ext_resource path="res://image/tile/tile027.png" type="Texture" id=63]
+[ext_resource path="res://image/tile/tile006.png" type="Texture" id=64]
+[ext_resource path="res://image/tile/tile007.png" type="Texture" id=65]
+[ext_resource path="res://image/tile/tile008.png" type="Texture" id=66]
+[ext_resource path="res://image/tile/tile002.png" type="Texture" id=67]
+[ext_resource path="res://image/tile/tile009.png" type="Texture" id=68]
+[ext_resource path="res://image/tile/tile001.png" type="Texture" id=69]
+[ext_resource path="res://image/tile/tile010.png" type="Texture" id=70]
+[ext_resource path="res://image/tile/tile003.png" type="Texture" id=71]
+[ext_resource path="res://image/tile/tile004.png" type="Texture" id=72]
+[ext_resource path="res://image/tile/tile005.png" type="Texture" id=73]
+[ext_resource path="res://image/tile/tile014.png" type="Texture" id=74]
+[ext_resource path="res://image/tile/tile015.png" type="Texture" id=75]
+[ext_resource path="res://image/tile/tile011.png" type="Texture" id=76]
+[ext_resource path="res://image/tile/tile013.png" type="Texture" id=77]
+[ext_resource path="res://image/tile/tile012.png" type="Texture" id=78]
+[ext_resource path="res://script/Popup/TileLoader.gd" type="Script" id=79]
+[ext_resource path="res://image/popup/selectedtile.png" type="Texture" id=80]
+[ext_resource path="res://image/decal/decal013.png" type="Texture" id=81]
+[ext_resource path="res://script/Popup/ColorPicker.gd" type="Script" id=82]
+[ext_resource path="res://image/decal/decal007.png" type="Texture" id=83]
+[ext_resource path="res://image/popup/pallet.png" type="Texture" id=84]
+[ext_resource path="res://image/popup/palletclear.png" type="Texture" id=85]
+[ext_resource path="res://image/decal/decal025.png" type="Texture" id=86]
+[ext_resource path="res://image/decal/decal022.png" type="Texture" id=87]
+[ext_resource path="res://image/decal/decal023.png" type="Texture" id=88]
+[ext_resource path="res://image/decal/decal024.png" type="Texture" id=89]
+[ext_resource path="res://image/decal/decal026.png" type="Texture" id=90]
+[ext_resource path="res://image/decal/decal027.png" type="Texture" id=91]
+[ext_resource path="res://image/decal/decal033.png" type="Texture" id=92]
+[ext_resource path="res://image/decal/decal032.png" type="Texture" id=93]
+[ext_resource path="res://image/decal/decal003.png" type="Texture" id=94]
+[ext_resource path="res://image/decal/decal008.png" type="Texture" id=95]
+[ext_resource path="res://image/decal/decal001.png" type="Texture" id=96]
+[ext_resource path="res://image/decal/decal006.png" type="Texture" id=97]
+[ext_resource path="res://image/decal/decal009.png" type="Texture" id=98]
+[ext_resource path="res://image/decal/decal004.png" type="Texture" id=99]
+[ext_resource path="res://image/decal/decal005.png" type="Texture" id=100]
+[ext_resource path="res://image/decal/decal010.png" type="Texture" id=101]
+[ext_resource path="res://image/decal/decal011.png" type="Texture" id=102]
+[ext_resource path="res://image/decal/decal012.png" type="Texture" id=103]
+[ext_resource path="res://image/decal/decal014.png" type="Texture" id=104]
+[ext_resource path="res://image/decal/decal002.png" type="Texture" id=105]
+[ext_resource path="res://image/decal/decal030.png" type="Texture" id=106]
+[ext_resource path="res://image/decal/decal000.png" type="Texture" id=107]
+[ext_resource path="res://image/decal/decal028.png" type="Texture" id=108]
+[ext_resource path="res://image/decal/decal029.png" type="Texture" id=109]
+[ext_resource path="res://image/decal/decal031.png" type="Texture" id=110]
+[ext_resource path="res://image/decal/decal035.png" type="Texture" id=111]
+[ext_resource path="res://image/decal/decal034.png" type="Texture" id=112]
+[ext_resource path="res://image/decal/decal016.png" type="Texture" id=113]
+[ext_resource path="res://image/decal/decal017.png" type="Texture" id=114]
+[ext_resource path="res://image/decal/decal018.png" type="Texture" id=115]
+[ext_resource path="res://image/decal/decal019.png" type="Texture" id=116]
+[ext_resource path="res://image/decal/decal021.png" type="Texture" id=117]
+[ext_resource path="res://image/decal/decal020.png" type="Texture" id=118]
+[ext_resource path="res://image/decal/decal015.png" type="Texture" id=119]
+[ext_resource path="res://image/decal/decal040.png" type="Texture" id=120]
+[ext_resource path="res://image/decal/decal052.png" type="Texture" id=121]
+[ext_resource path="res://image/decal/decal036.png" type="Texture" id=122]
+[ext_resource path="res://image/decal/decal054.png" type="Texture" id=123]
+[ext_resource path="res://image/decal/decal055.png" type="Texture" id=124]
+[ext_resource path="res://image/decal/decal041.png" type="Texture" id=125]
+[ext_resource path="res://image/decal/decal038.png" type="Texture" id=126]
+[ext_resource path="res://image/decal/decal044.png" type="Texture" id=127]
+[ext_resource path="res://image/decal/decal045.png" type="Texture" id=128]
+[ext_resource path="res://image/decal/decal039.png" type="Texture" id=129]
+[ext_resource path="res://image/decal/decal051.png" type="Texture" id=130]
+[ext_resource path="res://image/decal/decal058.png" type="Texture" id=131]
+[ext_resource path="res://image/decal/decal061.png" type="Texture" id=132]
+[ext_resource path="res://image/decal/decal056.png" type="Texture" id=133]
+[ext_resource path="res://image/decal/decal062.png" type="Texture" id=134]
+[ext_resource path="res://image/decal/decal059.png" type="Texture" id=135]
+[ext_resource path="res://image/decal/decal048.png" type="Texture" id=136]
+[ext_resource path="res://image/decal/decal049.png" type="Texture" id=137]
+[ext_resource path="res://image/decal/decal050.png" type="Texture" id=138]
+[ext_resource path="res://image/decal/decal047.png" type="Texture" id=139]
+[ext_resource path="res://image/decal/decal057.png" type="Texture" id=140]
+[ext_resource path="res://image/decal/decal042.png" type="Texture" id=141]
+[ext_resource path="res://image/decal/decal046.png" type="Texture" id=142]
+[ext_resource path="res://image/decal/decal053.png" type="Texture" id=143]
+[ext_resource path="res://image/decal/decal060.png" type="Texture" id=144]
+[ext_resource path="res://image/decal/decal043.png" type="Texture" id=145]
+[ext_resource path="res://image/decal/decal037.png" type="Texture" id=146]
+[ext_resource path="res://image/door/door1.png" type="Texture" id=147]
+[ext_resource path="res://image/door/door2.png" type="Texture" id=148]
+[ext_resource path="res://image/door/door3.png" type="Texture" id=149]
+[ext_resource path="res://image/door/door4.png" type="Texture" id=150]
+[ext_resource path="res://script/Popup/DecalLoader.gd" type="Script" id=151]
+[ext_resource path="res://image/powerup/slowmotion.png" type="Texture" id=152]
+[ext_resource path="res://image/powerup/ballfrenzy.png" type="Texture" id=153]
+[ext_resource path="res://image/powerup/nitroballs.png" type="Texture" id=154]
+[ext_resource path="res://image/powerup/multiball.png" type="Texture" id=155]
+[ext_resource path="res://image/powerup/extraball.png" type="Texture" id=156]
+[ext_resource path="res://script/Inspector/Powerup.gd" type="Script" id=157]
+[ext_resource path="res://image/popup/scorepreview.png" type="Texture" id=158]
+[ext_resource path="res://script/Popup/CrystalTemplate.gd" type="Script" id=159]
+[ext_resource path="res://script/Popup/ComingSoon.gd" type="Script" id=160]
+[ext_resource path="res://script/Popup/GlassTemplate.gd" type="Script" id=161]
+[ext_resource path="res://image/popup/glasspreview.png" type="Texture" id=162]
+[ext_resource path="res://script/Popup/ObstacleLoader.gd" type="Script" id=163]
+[ext_resource path="res://object/Popup/ObstacleButton.tscn" type="PackedScene" id=164]
+[ext_resource path="res://script/Popup/Quicktest.gd" type="Script" id=165]
+[ext_resource path="res://image/popup/MeshbakerChan.png" type="Texture" id=166]
+
+[sub_resource type="DynamicFont" id=1]
+size = 43
+extra_spacing_top = 15
+font_data = ExtResource( 1 )
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.34902, 0.34902, 0.34902, 1 )
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0.0431373, 0.0431373, 0.0431373, 1 )
+
+[sub_resource type="StyleBoxEmpty" id=4]
+
+[sub_resource type="StyleBoxEmpty" id=5]
+
+[sub_resource type="StyleBoxFlat" id=6]
+bg_color = Color( 0.135742, 0.135742, 0.135742, 1 )
+
+[sub_resource type="StyleBoxEmpty" id=23]
+
+[sub_resource type="StyleBoxFlat" id=19]
+bg_color = Color( 0.92549, 0.65098, 1, 1 )
+
+[sub_resource type="StyleBoxFlat" id=20]
+bg_color = Color( 0.321569, 0.231373, 0.34902, 1 )
+
+[sub_resource type="StyleBoxFlat" id=21]
+bg_color = Color( 0.6, 0.427451, 0.647059, 1 )
+
+[sub_resource type="StyleBoxLine" id=22]
+content_margin_left = 10.0
+content_margin_right = 10.0
+color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+grow_begin = 0.0
+grow_end = 0.0
+thickness = 10
+vertical = true
+
+[sub_resource type="Theme" id=18]
+TooltipLabel/colors/font_color = Color( 0, 0, 0, 0 )
+TooltipLabel/colors/font_color_shadow = Color( 0, 0, 0, 0 )
+TooltipPanel/styles/panel = SubResource( 23 )
+VScrollBar/styles/grabber = SubResource( 19 )
+VScrollBar/styles/grabber_highlight = SubResource( 20 )
+VScrollBar/styles/grabber_pressed = SubResource( 21 )
+VScrollBar/styles/scroll = SubResource( 22 )
+VScrollBar/styles/scroll_focus = SubResource( 22 )
+
+[sub_resource type="DynamicFont" id=9]
+size = 49
+extra_spacing_top = 21
+font_data = ExtResource( 1 )
+
+[sub_resource type="StyleBoxFlat" id=10]
+bg_color = Color( 0.117647, 0.117647, 0.117647, 1 )
+
+[sub_resource type="StyleBoxFlat" id=11]
+bg_color = Color( 0.117647, 0.117647, 0.117647, 1 )
+
+[sub_resource type="StyleBoxFlat" id=7]
+bg_color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[sub_resource type="StyleBoxEmpty" id=12]
+
+[sub_resource type="StyleBoxFlat" id=13]
+bg_color = Color( 0.186523, 0.186523, 0.186523, 1 )
+
+[sub_resource type="StyleBoxFlat" id=8]
+bg_color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[sub_resource type="DynamicFont" id=24]
+size = 42
+extra_spacing_top = 11
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=25]
+size = 26
+extra_spacing_top = 11
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=29]
+size = 35
+extra_spacing_top = 15
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=30]
+size = 26
+extra_spacing_top = 9
+font_data = ExtResource( 1 )
+
+[sub_resource type="StyleBoxFlat" id=31]
+bg_color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[sub_resource type="DynamicFont" id=32]
+size = 42
+extra_spacing_top = 17
+font_data = ExtResource( 1 )
+
+[sub_resource type="StyleBoxFlat" id=33]
+bg_color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[sub_resource type="StyleBoxFlat" id=34]
+bg_color = Color( 0.137255, 0.137255, 0.137255, 1 )
+
+[sub_resource type="DynamicFont" id=35]
+size = 37
+extra_spacing_top = 15
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=36]
+size = 24
+extra_spacing_top = 15
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=37]
+extra_spacing_top = 15
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=38]
+size = 32
+extra_spacing_top = 11
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=62]
+size = 31
+extra_spacing_top = 15
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=39]
+size = 42
+extra_spacing_top = 22
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=40]
+size = 29
+extra_spacing_top = 9
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=41]
+size = 21
+extra_spacing_top = 9
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=42]
+size = 25
+extra_spacing_top = 6
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=43]
+size = 26
+font_data = ExtResource( 1 )
+
+[sub_resource type="Animation" id=44]
+resource_name = "Animation"
+length = 2.0
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Selectedtile:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5, 1, 1.5, 2 ),
+"transitions": PoolRealArray( -2, -2, -2, -2, -2 ),
+"update": 0,
+"values": [ Color( 1, 0.423529, 0, 1 ), Color( 1, 0.937255, 0, 1 ), Color( 0, 0.882353, 1, 1 ), Color( 1, 0.937255, 0, 1 ), Color( 1, 0.423529, 0, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Decal013:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1, 2 ),
+"transitions": PoolRealArray( -2, -2, -2 ),
+"update": 0,
+"values": [ Vector2( 76, 84 ), Vector2( 76, 100 ), Vector2( 76, 84 ) ]
+}
+
+[sub_resource type="Animation" id=45]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("Selectedtile:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 0.423529, 0, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Decal013:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 76, 84 ) ]
+}
+
+[sub_resource type="Animation" id=46]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Selectedtile:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0.0875, 0.0875 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Decal013:offset")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0, 0 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Decal013:scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0.448, 0.448 ) ]
+}
+
+[sub_resource type="Animation" id=47]
+resource_name = "Select"
+length = 0.4
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.4 ),
+"transitions": PoolRealArray( 0.68302, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Selectedtile:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.4 ),
+"transitions": PoolRealArray( 0.164939, 1 ),
+"update": 0,
+"values": [ Vector2( 0.2, 0.2 ), Vector2( 0.0875, 0.0875 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Decal013:offset")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.4 ),
+"transitions": PoolRealArray( 0.277392, 1 ),
+"update": 0,
+"values": [ Vector2( 0, -60 ), Vector2( 0, 0 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Decal013:scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.4 ),
+"transitions": PoolRealArray( 0.183011, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 0.448 ), Vector2( 0.448, 0.448 ) ]
+}
+
+[sub_resource type="Animation" id=54]
+resource_name = "Animation"
+length = 2.0
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Selectedtile:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5, 1, 1.5, 2 ),
+"transitions": PoolRealArray( -2, -2, -2, -2, -2 ),
+"update": 0,
+"values": [ Color( 1, 0.423529, 0, 1 ), Color( 1, 0.937255, 0, 1 ), Color( 0, 0.882353, 1, 1 ), Color( 1, 0.937255, 0, 1 ), Color( 1, 0.423529, 0, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Decal013:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1, 2 ),
+"transitions": PoolRealArray( -2, -2, -2 ),
+"update": 0,
+"values": [ Vector2( 76, 84 ), Vector2( 76, 100 ), Vector2( 76, 84 ) ]
+}
+
+[sub_resource type="Animation" id=55]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("Selectedtile:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 0.423529, 0, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Decal013:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 76, 84 ) ]
+}
+
+[sub_resource type="Animation" id=56]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Selectedtile:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0.0875, 0.0875 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Decal013:offset")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0, 0 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Decal013:scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0.448, 0.448 ) ]
+}
+
+[sub_resource type="Animation" id=57]
+resource_name = "Select"
+length = 0.4
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.4 ),
+"transitions": PoolRealArray( 0.68302, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Selectedtile:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.4 ),
+"transitions": PoolRealArray( 0.164939, 1 ),
+"update": 0,
+"values": [ Vector2( 0.2, 0.2 ), Vector2( 0.0875, 0.0875 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Decal013:offset")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.4 ),
+"transitions": PoolRealArray( 0.277392, 1 ),
+"update": 0,
+"values": [ Vector2( 0, -60 ), Vector2( 0, 0 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Decal013:scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.4 ),
+"transitions": PoolRealArray( 0.183011, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 0.448 ), Vector2( 0.448, 0.448 ) ]
+}
+
+[sub_resource type="StyleBoxLine" id=48]
+color = Color( 1, 1, 1, 1 )
+grow_begin = 0.0
+grow_end = 0.0
+thickness = 10
+
+[sub_resource type="StyleBoxLine" id=51]
+color = Color( 1, 1, 1, 0.576471 )
+grow_begin = 0.0
+grow_end = 0.0
+thickness = 10
+
+[sub_resource type="StyleBoxFlat" id=49]
+bg_color = Color( 0, 0, 0, 0.694118 )
+
+[sub_resource type="StyleBoxEmpty" id=50]
+
+[sub_resource type="StyleBoxLine" id=52]
+color = Color( 0.415686, 0.415686, 0.415686, 1 )
+grow_begin = 0.0
+grow_end = 0.0
+thickness = 10
+
+[sub_resource type="DynamicFont" id=53]
+size = 24
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=58]
+size = 35
+extra_spacing_top = 18
+font_data = ExtResource( 1 )
+
+[sub_resource type="StyleBoxFlat" id=60]
+bg_color = Color( 0.172549, 0.172549, 0.172549, 1 )
+
+[sub_resource type="StyleBoxFlat" id=59]
+bg_color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[sub_resource type="StyleBoxEmpty" id=61]
+
+[sub_resource type="DynamicFont" id=64]
+size = 30
+extra_spacing_top = 15
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=63]
+size = 42
+extra_spacing_top = 20
+font_data = ExtResource( 1 )
+
+[sub_resource type="Animation" id=28]
+resource_name = "Hide"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("CanvasLayer/Popup:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 0.105112, 0.105112 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 1, 1e-05 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("CanvasLayer/Popup:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 0.105112, 0.105112 ),
+"update": 0,
+"values": [ Vector2( 0, 0 ), Vector2( 0, 270 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("CanvasLayer/Cover:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 0.105112, 0.105112 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=27]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("CanvasLayer/Popup:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1e-05 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("CanvasLayer/Popup:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0, 0 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("CanvasLayer/Cover:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=26]
+resource_name = "Show"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("CanvasLayer/Popup:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 0.098073, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1e-05 ), Vector2( 1, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("CanvasLayer/Popup:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 0.098073, 1 ),
+"update": 0,
+"values": [ Vector2( 0, 270 ), Vector2( 0, 0 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("CanvasLayer/Cover:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 0.143587, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[node name="Popup" type="Node2D"]
+script = ExtResource( 4 )
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = 20
+
+[node name="Cover" type="ColorRect" parent="CanvasLayer"]
+modulate = Color( 1, 1, 1, 0 )
+margin_left = 1.0
+margin_right = 961.0
+margin_bottom = 540.0
+mouse_filter = 2
+color = Color( 0, 0, 0, 0.513726 )
+
+[node name="Popup" type="Node2D" parent="CanvasLayer"]
+scale = Vector2( 1, 1e-05 )
+
+[node name="OpenFile" type="Node2D" parent="CanvasLayer/Popup"]
+visible = false
+script = ExtResource( 3 )
+
+[node name="Panel" type="ColorRect" parent="CanvasLayer/Popup/OpenFile"]
+margin_left = 88.0
+margin_top = 24.0
+margin_right = 872.0
+margin_bottom = 516.0
+color = Color( 0.117647, 0.117647, 0.117647, 1 )
+
+[node name="TitlePanel" type="ColorRect" parent="CanvasLayer/Popup/OpenFile"]
+margin_left = 88.0
+margin_top = 24.0
+margin_right = 872.0
+margin_bottom = 80.0
+color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[node name="Title" type="Label" parent="CanvasLayer/Popup/OpenFile"]
+margin_left = 88.0
+margin_top = 24.0
+margin_right = 872.0
+margin_bottom = 80.0
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "Open file"
+align = 1
+valign = 1
+
+[node name="Close" type="Button" parent="CanvasLayer/Popup/OpenFile"]
+margin_left = 816.0
+margin_top = 24.0
+margin_right = 872.0
+margin_bottom = 80.0
+focus_mode = 0
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+enabled_focus_mode = 0
+
+[node name="Decal063" type="Sprite" parent="CanvasLayer/Popup/OpenFile/Close"]
+position = Vector2( 32, 26 )
+scale = Vector2( 0.436, 0.436 )
+texture = ExtResource( 2 )
+
+[node name="FileList" type="ItemList" parent="CanvasLayer/Popup/OpenFile"]
+margin_left = 112.0
+margin_top = 104.0
+margin_right = 848.0
+margin_bottom = 424.0
+theme = SubResource( 18 )
+custom_colors/guide_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_selected = Color( 0.854902, 0.686275, 1, 1 )
+custom_colors/font_color = Color( 0.384314, 0.384314, 0.384314, 1 )
+custom_fonts/font = SubResource( 9 )
+custom_styles/cursor = SubResource( 10 )
+custom_styles/selected_focus = SubResource( 11 )
+custom_styles/bg_focus = SubResource( 7 )
+custom_styles/cursor_unfocused = SubResource( 12 )
+custom_styles/selected = SubResource( 13 )
+custom_styles/bg = SubResource( 8 )
+
+[node name="Open" type="Button" parent="CanvasLayer/Popup/OpenFile"]
+margin_left = 400.0
+margin_top = 440.0
+margin_right = 848.0
+margin_bottom = 496.0
+focus_mode = 0
+custom_colors/font_color_disabled = Color( 0.352941, 0.352941, 0.352941, 1 )
+custom_colors/font_color_focus = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color_hover = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color_pressed = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 24 )
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+disabled = true
+enabled_focus_mode = 0
+text = "open"
+
+[node name="OpenFolder" type="Button" parent="CanvasLayer/Popup/OpenFile"]
+margin_left = 112.0
+margin_top = 440.0
+margin_right = 384.0
+margin_bottom = 496.0
+focus_mode = 0
+custom_colors/font_color_disabled = Color( 0.352941, 0.352941, 0.352941, 1 )
+custom_colors/font_color_focus = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color_hover = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color_pressed = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 25 )
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+enabled_focus_mode = 0
+text = "open userdata folder"
+
+[node name="NewWarning" type="Node2D" parent="CanvasLayer/Popup"]
+visible = false
+script = ExtResource( 5 )
+
+[node name="Panel" type="ColorRect" parent="CanvasLayer/Popup/NewWarning"]
+margin_left = 88.0
+margin_top = 24.0
+margin_right = 872.0
+margin_bottom = 516.0
+color = Color( 0.117647, 0.117647, 0.117647, 1 )
+
+[node name="TitlePanel" type="ColorRect" parent="CanvasLayer/Popup/NewWarning"]
+margin_left = 88.0
+margin_top = 24.0
+margin_right = 872.0
+margin_bottom = 80.0
+color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[node name="Title" type="Label" parent="CanvasLayer/Popup/NewWarning"]
+margin_left = 88.0
+margin_top = 24.0
+margin_right = 872.0
+margin_bottom = 80.0
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "Warning"
+align = 1
+valign = 1
+
+[node name="Text" type="Label" parent="CanvasLayer/Popup/NewWarning"]
+margin_left = 88.0
+margin_top = 80.0
+margin_right = 872.0
+margin_bottom = 439.0
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "Unsaved segments exist.
+Do you want to save them?"
+align = 1
+valign = 1
+
+[node name="Close" type="Button" parent="CanvasLayer/Popup/NewWarning"]
+margin_left = 816.0
+margin_top = 24.0
+margin_right = 872.0
+margin_bottom = 80.0
+focus_mode = 0
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+enabled_focus_mode = 0
+
+[node name="Decal063" type="Sprite" parent="CanvasLayer/Popup/NewWarning/Close"]
+position = Vector2( 32, 26 )
+scale = Vector2( 0.436, 0.436 )
+texture = ExtResource( 2 )
+
+[node name="Cancel" type="Button" parent="CanvasLayer/Popup/NewWarning"]
+margin_left = 328.0
+margin_top = 440.0
+margin_right = 848.0
+margin_bottom = 496.0
+focus_mode = 0
+custom_colors/font_color_disabled = Color( 0.352941, 0.352941, 0.352941, 1 )
+custom_colors/font_color_focus = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color_hover = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color_pressed = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 24 )
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+enabled_focus_mode = 0
+text = "cancel"
+
+[node name="Create" type="Button" parent="CanvasLayer/Popup/NewWarning"]
+margin_left = 112.0
+margin_top = 440.0
+margin_right = 312.0
+margin_bottom = 496.0
+focus_mode = 0
+custom_colors/font_color_disabled = Color( 0.352941, 0.352941, 0.352941, 1 )
+custom_colors/font_color_focus = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color_hover = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color_pressed = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 24 )
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+enabled_focus_mode = 0
+text = "create"
+
+[node name="SegmentError" type="Node2D" parent="CanvasLayer/Popup"]
+visible = false
+script = ExtResource( 6 )
+
+[node name="Panel" type="ColorRect" parent="CanvasLayer/Popup/SegmentError"]
+margin_left = 88.0
+margin_top = 24.0
+margin_right = 872.0
+margin_bottom = 516.0
+color = Color( 0.117647, 0.117647, 0.117647, 1 )
+
+[node name="TitlePanel" type="ColorRect" parent="CanvasLayer/Popup/SegmentError"]
+margin_left = 88.0
+margin_top = 24.0
+margin_right = 872.0
+margin_bottom = 80.0
+color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[node name="Title" type="Label" parent="CanvasLayer/Popup/SegmentError"]
+margin_left = 88.0
+margin_top = 24.0
+margin_right = 872.0
+margin_bottom = 80.0
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "Warning"
+align = 1
+valign = 1
+
+[node name="Text" type="Label" parent="CanvasLayer/Popup/SegmentError"]
+margin_left = 88.0
+margin_top = 80.0
+margin_right = 872.0
+margin_bottom = 132.0
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 29 )
+text = "An issue has been detected in this segment."
+align = 1
+valign = 1
+
+[node name="Close" type="Button" parent="CanvasLayer/Popup/SegmentError"]
+margin_left = 816.0
+margin_top = 24.0
+margin_right = 872.0
+margin_bottom = 80.0
+focus_mode = 0
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+enabled_focus_mode = 0
+
+[node name="Decal063" type="Sprite" parent="CanvasLayer/Popup/SegmentError/Close"]
+position = Vector2( 32, 26 )
+scale = Vector2( 0.436, 0.436 )
+texture = ExtResource( 2 )
+
+[node name="Continue" type="Button" parent="CanvasLayer/Popup/SegmentError"]
+margin_left = 328.0
+margin_top = 440.0
+margin_right = 848.0
+margin_bottom = 496.0
+focus_mode = 0
+custom_colors/font_color_disabled = Color( 0.352941, 0.352941, 0.352941, 1 )
+custom_colors/font_color_focus = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color_hover = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color_pressed = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 24 )
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+enabled_focus_mode = 0
+text = "Continue"
+
+[node name="Copy" type="Button" parent="CanvasLayer/Popup/SegmentError"]
+margin_left = 112.0
+margin_top = 440.0
+margin_right = 312.0
+margin_bottom = 496.0
+focus_mode = 0
+custom_colors/font_color_disabled = Color( 0.352941, 0.352941, 0.352941, 1 )
+custom_colors/font_color_focus = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color_hover = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color_pressed = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 24 )
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+enabled_focus_mode = 0
+text = "copy"
+
+[node name="Error" type="RichTextLabel" parent="CanvasLayer/Popup/SegmentError"]
+margin_left = 128.0
+margin_top = 144.0
+margin_right = 832.0
+margin_bottom = 416.0
+custom_colors/default_color = Color( 0.54902, 0.54902, 0.54902, 1 )
+custom_fonts/normal_font = SubResource( 30 )
+custom_styles/focus = SubResource( 31 )
+custom_styles/normal = SubResource( 31 )
+
+[node name="SaveFile" type="Node2D" parent="CanvasLayer/Popup"]
+visible = false
+script = ExtResource( 7 )
+
+[node name="Panel" type="ColorRect" parent="CanvasLayer/Popup/SaveFile"]
+margin_left = 88.0
+margin_top = 24.0
+margin_right = 872.0
+margin_bottom = 516.0
+color = Color( 0.117647, 0.117647, 0.117647, 1 )
+
+[node name="TitlePanel" type="ColorRect" parent="CanvasLayer/Popup/SaveFile"]
+margin_left = 88.0
+margin_top = 24.0
+margin_right = 872.0
+margin_bottom = 80.0
+color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[node name="Title" type="Label" parent="CanvasLayer/Popup/SaveFile"]
+margin_left = 88.0
+margin_top = 24.0
+margin_right = 872.0
+margin_bottom = 80.0
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "save file"
+align = 1
+valign = 1
+
+[node name="Close" type="Button" parent="CanvasLayer/Popup/SaveFile"]
+margin_left = 816.0
+margin_top = 24.0
+margin_right = 872.0
+margin_bottom = 80.0
+focus_mode = 0
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+enabled_focus_mode = 0
+
+[node name="Decal063" type="Sprite" parent="CanvasLayer/Popup/SaveFile/Close"]
+position = Vector2( 32, 26 )
+scale = Vector2( 0.436, 0.436 )
+texture = ExtResource( 2 )
+
+[node name="FileList" type="ItemList" parent="CanvasLayer/Popup/SaveFile"]
+margin_left = 112.0
+margin_top = 104.0
+margin_right = 848.0
+margin_bottom = 424.0
+theme = SubResource( 18 )
+custom_colors/guide_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_selected = Color( 0.854902, 0.686275, 1, 1 )
+custom_colors/font_color = Color( 0.384314, 0.384314, 0.384314, 1 )
+custom_fonts/font = SubResource( 9 )
+custom_styles/cursor = SubResource( 10 )
+custom_styles/selected_focus = SubResource( 11 )
+custom_styles/bg_focus = SubResource( 7 )
+custom_styles/cursor_unfocused = SubResource( 12 )
+custom_styles/selected = SubResource( 13 )
+custom_styles/bg = SubResource( 8 )
+
+[node name="Save" type="Button" parent="CanvasLayer/Popup/SaveFile"]
+margin_left = 648.0
+margin_top = 440.0
+margin_right = 848.0
+margin_bottom = 496.0
+focus_mode = 0
+custom_colors/font_color_disabled = Color( 0.352941, 0.352941, 0.352941, 1 )
+custom_colors/font_color_focus = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color_hover = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color_pressed = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 24 )
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+disabled = true
+enabled_focus_mode = 0
+text = "save"
+
+[node name="FileName" type="LineEdit" parent="CanvasLayer/Popup/SaveFile"]
+margin_left = 112.0
+margin_top = 440.0
+margin_right = 632.0
+margin_bottom = 496.0
+custom_colors/cursor_color = Color( 0.807843, 0.529412, 1, 1 )
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 32 )
+custom_styles/read_only = SubResource( 33 )
+custom_styles/focus = SubResource( 33 )
+custom_styles/normal = SubResource( 34 )
+placeholder_text = "example (*.xml.mp3)"
+
+[node name="SegmentOption" type="Node2D" parent="CanvasLayer/Popup"]
+visible = false
+script = ExtResource( 8 )
+
+[node name="Panel" type="ColorRect" parent="CanvasLayer/Popup/SegmentOption"]
+margin_left = 88.0
+margin_top = 24.0
+margin_right = 872.0
+margin_bottom = 516.0
+color = Color( 0.117647, 0.117647, 0.117647, 1 )
+
+[node name="TitlePanel" type="ColorRect" parent="CanvasLayer/Popup/SegmentOption"]
+margin_left = 88.0
+margin_top = 24.0
+margin_right = 872.0
+margin_bottom = 80.0
+color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[node name="Title" type="Label" parent="CanvasLayer/Popup/SegmentOption"]
+margin_left = 88.0
+margin_top = 24.0
+margin_right = 872.0
+margin_bottom = 80.0
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "Segment Settings"
+align = 1
+valign = 1
+
+[node name="TitlePanel2" type="ColorRect" parent="CanvasLayer/Popup/SegmentOption"]
+margin_left = 112.0
+margin_top = 112.0
+margin_right = 848.0
+margin_bottom = 168.0
+color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[node name="TitlePanel3" type="ColorRect" parent="CanvasLayer/Popup/SegmentOption"]
+margin_left = 112.0
+margin_top = 176.0
+margin_right = 848.0
+margin_bottom = 232.0
+color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[node name="TitlePanel4" type="ColorRect" parent="CanvasLayer/Popup/SegmentOption"]
+margin_left = 112.0
+margin_top = 232.0
+margin_right = 848.0
+margin_bottom = 288.0
+color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[node name="TitlePanel5" type="ColorRect" parent="CanvasLayer/Popup/SegmentOption"]
+margin_left = 112.0
+margin_top = 288.0
+margin_right = 848.0
+margin_bottom = 344.0
+color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[node name="TitlePanel6" type="ColorRect" parent="CanvasLayer/Popup/SegmentOption"]
+margin_left = 112.0
+margin_top = 344.0
+margin_right = 848.0
+margin_bottom = 400.0
+color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[node name="TemplateText" type="Label" parent="CanvasLayer/Popup/SegmentOption"]
+margin_left = 112.0
+margin_top = 112.0
+margin_right = 448.0
+margin_bottom = 168.0
+custom_colors/font_color = Color( 0.415686, 0.415686, 0.415686, 1 )
+custom_fonts/font = SubResource( 35 )
+text = "Segment template"
+align = 1
+valign = 1
+
+[node name="SegmentSizeText" type="Label" parent="CanvasLayer/Popup/SegmentOption"]
+margin_left = 112.0
+margin_top = 176.0
+margin_right = 448.0
+margin_bottom = 232.0
+custom_colors/font_color = Color( 0.415686, 0.415686, 0.415686, 1 )
+custom_fonts/font = SubResource( 35 )
+text = "segment size"
+align = 1
+valign = 1
+
+[node name="Segsizext" type="Label" parent="CanvasLayer/Popup/SegmentOption"]
+margin_left = 112.0
+margin_top = 232.0
+margin_right = 448.0
+margin_bottom = 288.0
+custom_colors/font_color = Color( 0.415686, 0.415686, 0.415686, 1 )
+custom_fonts/font = SubResource( 35 )
+text = "x"
+align = 1
+valign = 1
+
+[node name="Segsizeyt" type="Label" parent="CanvasLayer/Popup/SegmentOption"]
+margin_left = 112.0
+margin_top = 288.0
+margin_right = 448.0
+margin_bottom = 344.0
+custom_colors/font_color = Color( 0.415686, 0.415686, 0.415686, 1 )
+custom_fonts/font = SubResource( 35 )
+text = "y"
+align = 1
+valign = 1
+
+[node name="Segsizezt" type="Label" parent="CanvasLayer/Popup/SegmentOption"]
+margin_left = 112.0
+margin_top = 344.0
+margin_right = 448.0
+margin_bottom = 400.0
+custom_colors/font_color = Color( 0.415686, 0.415686, 0.415686, 1 )
+custom_fonts/font = SubResource( 35 )
+text = "z"
+align = 1
+valign = 1
+
+[node name="TemplateName" type="LineEdit" parent="CanvasLayer/Popup/SegmentOption"]
+margin_left = 448.0
+margin_top = 112.0
+margin_right = 848.0
+margin_bottom = 168.0
+custom_colors/cursor_color = Color( 0.807843, 0.529412, 1, 1 )
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 32 )
+custom_styles/read_only = SubResource( 33 )
+custom_styles/focus = SubResource( 33 )
+custom_styles/normal = SubResource( 34 )
+placeholder_text = "basic_s"
+
+[node name="Segsizex" type="LineEdit" parent="CanvasLayer/Popup/SegmentOption"]
+margin_left = 448.0
+margin_top = 232.0
+margin_right = 848.0
+margin_bottom = 288.0
+custom_colors/cursor_color = Color( 0.807843, 0.529412, 1, 1 )
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 32 )
+custom_styles/read_only = SubResource( 33 )
+custom_styles/focus = SubResource( 33 )
+custom_styles/normal = SubResource( 34 )
+placeholder_text = "12"
+
+[node name="Segsizey" type="LineEdit" parent="CanvasLayer/Popup/SegmentOption"]
+margin_left = 448.0
+margin_top = 288.0
+margin_right = 848.0
+margin_bottom = 344.0
+custom_colors/cursor_color = Color( 0.807843, 0.529412, 1, 1 )
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 32 )
+custom_styles/read_only = SubResource( 33 )
+custom_styles/focus = SubResource( 33 )
+custom_styles/normal = SubResource( 34 )
+placeholder_text = "10"
+
+[node name="Segsizez" type="LineEdit" parent="CanvasLayer/Popup/SegmentOption"]
+margin_left = 448.0
+margin_top = 344.0
+margin_right = 848.0
+margin_bottom = 400.0
+custom_colors/cursor_color = Color( 0.807843, 0.529412, 1, 1 )
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 32 )
+custom_styles/read_only = SubResource( 33 )
+custom_styles/focus = SubResource( 33 )
+custom_styles/normal = SubResource( 34 )
+placeholder_text = "16"
+
+[node name="SegsizeAuto" type="Button" parent="CanvasLayer/Popup/SegmentOption"]
+margin_left = 448.0
+margin_top = 184.0
+margin_right = 840.0
+margin_bottom = 224.0
+focus_mode = 0
+custom_colors/font_color_disabled = Color( 0.352941, 0.352941, 0.352941, 1 )
+custom_colors/font_color_focus = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color_hover = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color_pressed = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 24 )
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+toggle_mode = true
+enabled_focus_mode = 0
+text = "auto"
+
+[node name="Continue" type="Button" parent="CanvasLayer/Popup/SegmentOption"]
+margin_left = 112.0
+margin_top = 416.0
+margin_right = 848.0
+margin_bottom = 496.0
+focus_mode = 0
+custom_colors/font_color_disabled = Color( 0.352941, 0.352941, 0.352941, 1 )
+custom_colors/font_color_focus = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color_hover = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color_pressed = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 24 )
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+enabled_focus_mode = 0
+text = "close"
+
+[node name="About" type="Node2D" parent="CanvasLayer/Popup"]
+visible = false
+script = ExtResource( 9 )
+
+[node name="Panel" type="ColorRect" parent="CanvasLayer/Popup/About"]
+margin_left = 88.0
+margin_top = 24.0
+margin_right = 872.0
+margin_bottom = 516.0
+color = Color( 0.117647, 0.117647, 0.117647, 1 )
+
+[node name="TitlePanel" type="ColorRect" parent="CanvasLayer/Popup/About"]
+margin_left = 88.0
+margin_top = 24.0
+margin_right = 872.0
+margin_bottom = 80.0
+color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[node name="Title" type="Label" parent="CanvasLayer/Popup/About"]
+margin_left = 88.0
+margin_top = 24.0
+margin_right = 872.0
+margin_bottom = 80.0
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "about"
+align = 1
+valign = 1
+
+[node name="Text" type="Label" parent="CanvasLayer/Popup/About"]
+margin_left = 88.0
+margin_top = 240.0
+margin_right = 872.0
+margin_bottom = 269.0
+custom_colors/font_color = Color( 0.290196, 0.290196, 0.290196, 1 )
+custom_fonts/font = SubResource( 36 )
+text = "by mawario - v1.0"
+align = 1
+valign = 1
+
+[node name="Text2" type="Label" parent="CanvasLayer/Popup/About"]
+margin_left = 223.0
+margin_top = 360.0
+margin_right = 445.0
+margin_bottom = 488.0
+custom_colors/font_color = Color( 0.627451, 0.627451, 0.627451, 1 )
+custom_fonts/font = SubResource( 37 )
+text = "Created by Mawario
+Get the latest updates from the
+Smash Hit Lab Discord server"
+align = 1
+valign = 1
+
+[node name="Text3" type="Label" parent="CanvasLayer/Popup/About"]
+margin_left = 584.0
+margin_top = 360.0
+margin_right = 856.0
+margin_bottom = 446.0
+custom_colors/font_color = Color( 0.627451, 0.627451, 0.627451, 1 )
+custom_fonts/font = SubResource( 37 )
+text = "Interested in modding Smash Hit?
+Join the Smash Hit Lab!"
+align = 1
+valign = 1
+
+[node name="Close" type="Button" parent="CanvasLayer/Popup/About"]
+margin_left = 816.0
+margin_top = 24.0
+margin_right = 872.0
+margin_bottom = 80.0
+focus_mode = 0
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+enabled_focus_mode = 0
+
+[node name="Decal063" type="Sprite" parent="CanvasLayer/Popup/About/Close"]
+position = Vector2( 32, 26 )
+scale = Vector2( 0.436, 0.436 )
+texture = ExtResource( 2 )
+
+[node name="Logo" type="Sprite" parent="CanvasLayer/Popup/About"]
+position = Vector2( 480, 162 )
+scale = Vector2( 0.331, 0.331 )
+texture = ExtResource( 10 )
+
+[node name="CanvasGirl" type="Sprite" parent="CanvasLayer/Popup/About"]
+position = Vector2( 168, 424 )
+scale = Vector2( 0.128, 0.128 )
+texture = ExtResource( 11 )
+
+[node name="Lablogo" type="Sprite" parent="CanvasLayer/Popup/About"]
+position = Vector2( 516, 424 )
+scale = Vector2( 0.2, 0.2 )
+texture = ExtResource( 12 )
+
+[node name="Continue" type="Button" parent="CanvasLayer/Popup/About"]
+margin_left = 600.0
+margin_top = 448.0
+margin_right = 838.0
+margin_bottom = 485.0
+focus_mode = 0
+custom_colors/font_color_disabled = Color( 0.352941, 0.352941, 0.352941, 1 )
+custom_colors/font_color_focus = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color_hover = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color_pressed = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 38 )
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+enabled_focus_mode = 0
+text = "join"
+
+[node name="Canvas" type="Button" parent="CanvasLayer/Popup/About"]
+modulate = Color( 1, 1, 1, 0 )
+margin_left = 115.0
+margin_top = 358.0
+margin_right = 225.0
+margin_bottom = 500.0
+focus_mode = 0
+enabled_focus_mode = 0
+
+[node name="ComingSoon" type="Node2D" parent="CanvasLayer/Popup"]
+visible = false
+script = ExtResource( 160 )
+
+[node name="Panel" type="ColorRect" parent="CanvasLayer/Popup/ComingSoon"]
+margin_left = 88.0
+margin_top = 24.0
+margin_right = 872.0
+margin_bottom = 516.0
+color = Color( 0.117647, 0.117647, 0.117647, 1 )
+
+[node name="TitlePanel" type="ColorRect" parent="CanvasLayer/Popup/ComingSoon"]
+margin_left = 88.0
+margin_top = 24.0
+margin_right = 872.0
+margin_bottom = 80.0
+color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[node name="Title" type="Label" parent="CanvasLayer/Popup/ComingSoon"]
+margin_left = 88.0
+margin_top = 24.0
+margin_right = 872.0
+margin_bottom = 80.0
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "Work in progress"
+align = 1
+valign = 1
+
+[node name="Text" type="Label" parent="CanvasLayer/Popup/ComingSoon"]
+margin_left = 88.0
+margin_top = 63.0
+margin_right = 872.0
+margin_bottom = 512.0
+custom_colors/font_color = Color( 0.564706, 0.564706, 0.564706, 1 )
+custom_fonts/font = SubResource( 62 )
+text = "Sorry, this feature is still under development."
+align = 1
+valign = 1
+
+[node name="Close" type="Button" parent="CanvasLayer/Popup/ComingSoon"]
+margin_left = 816.0
+margin_top = 24.0
+margin_right = 872.0
+margin_bottom = 80.0
+focus_mode = 0
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+enabled_focus_mode = 0
+
+[node name="Decal063" type="Sprite" parent="CanvasLayer/Popup/ComingSoon/Close"]
+position = Vector2( 32, 26 )
+scale = Vector2( 0.436, 0.436 )
+texture = ExtResource( 2 )
+
+[node name="BoxTemplate" type="Node2D" parent="CanvasLayer/Popup"]
+visible = false
+script = ExtResource( 13 )
+
+[node name="Panel" type="ColorRect" parent="CanvasLayer/Popup/BoxTemplate"]
+margin_left = 24.0
+margin_top = 24.0
+margin_right = 936.0
+margin_bottom = 516.0
+color = Color( 0.117647, 0.117647, 0.117647, 1 )
+
+[node name="TitlePanel" type="ColorRect" parent="CanvasLayer/Popup/BoxTemplate"]
+margin_left = 24.0
+margin_top = 24.0
+margin_right = 936.0
+margin_bottom = 80.0
+color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[node name="Title" type="Label" parent="CanvasLayer/Popup/BoxTemplate"]
+margin_left = 24.0
+margin_top = 24.0
+margin_right = 936.0
+margin_bottom = 80.0
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "template loader"
+align = 1
+valign = 1
+
+[node name="ListPanel" type="ColorRect" parent="CanvasLayer/Popup/BoxTemplate"]
+margin_left = 40.0
+margin_top = 96.0
+margin_right = 560.0
+margin_bottom = 496.0
+color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[node name="InfoPanel" type="ColorRect" parent="CanvasLayer/Popup/BoxTemplate"]
+margin_left = 568.0
+margin_top = 96.0
+margin_right = 912.0
+margin_bottom = 424.0
+color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[node name="InfoPanel2" type="ColorRect" parent="CanvasLayer/Popup/BoxTemplate"]
+margin_left = 568.0
+margin_top = 96.0
+margin_right = 912.0
+margin_bottom = 224.0
+color = Color( 0.0588235, 0.0588235, 0.0588235, 1 )
+
+[node name="Select" type="Button" parent="CanvasLayer/Popup/BoxTemplate"]
+margin_left = 568.0
+margin_top = 440.0
+margin_right = 912.0
+margin_bottom = 496.0
+focus_mode = 0
+custom_colors/font_color_disabled = Color( 0.352941, 0.352941, 0.352941, 1 )
+custom_colors/font_color_focus = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color_hover = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color_pressed = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 39 )
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+enabled_focus_mode = 0
+text = "select"
+
+[node name="Close" type="Button" parent="CanvasLayer/Popup/BoxTemplate"]
+margin_left = 880.0
+margin_top = 24.0
+margin_right = 936.0
+margin_bottom = 80.0
+focus_mode = 0
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+enabled_focus_mode = 0
+
+[node name="Decal063" type="Sprite" parent="CanvasLayer/Popup/BoxTemplate/Close"]
+position = Vector2( 32, 26 )
+scale = Vector2( 0.436, 0.436 )
+texture = ExtResource( 2 )
+
+[node name="FileList" type="ItemList" parent="CanvasLayer/Popup/BoxTemplate"]
+margin_left = 40.0
+margin_top = 96.0
+margin_right = 560.0
+margin_bottom = 496.0
+theme = SubResource( 18 )
+custom_colors/guide_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_selected = Color( 0.854902, 0.686275, 1, 1 )
+custom_colors/font_color = Color( 0.384314, 0.384314, 0.384314, 1 )
+custom_fonts/font = SubResource( 9 )
+custom_styles/cursor = SubResource( 10 )
+custom_styles/selected_focus = SubResource( 11 )
+custom_styles/bg_focus = SubResource( 7 )
+custom_styles/cursor_unfocused = SubResource( 12 )
+custom_styles/selected = SubResource( 13 )
+custom_styles/bg = SubResource( 8 )
+icon_scale = 0.2
+
+[node name="Preview" type="Node2D" parent="CanvasLayer/Popup/BoxTemplate"]
+
+[node name="PreviewY" type="Sprite" parent="CanvasLayer/Popup/BoxTemplate/Preview"]
+position = Vector2( 604, 132 )
+scale = Vector2( 0.231404, 0.231405 )
+texture = ExtResource( 14 )
+
+[node name="PreviewZ" type="Sprite" parent="CanvasLayer/Popup/BoxTemplate/Preview"]
+position = Vector2( 604, 188 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 14 )
+
+[node name="PreviewX" type="Sprite" parent="CanvasLayer/Popup/BoxTemplate/Preview"]
+position = Vector2( 660, 132 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 14 )
+
+[node name="Texturepreview" type="Sprite" parent="CanvasLayer/Popup/BoxTemplate/Preview"]
+position = Vector2( 664, 192 )
+scale = Vector2( 0.07, 0.07 )
+texture = ExtResource( 15 )
+
+[node name="TemplateName" type="Label" parent="CanvasLayer/Popup/BoxTemplate/Preview"]
+margin_left = 698.0
+margin_top = 104.0
+margin_right = 904.0
+margin_bottom = 160.0
+custom_colors/font_color = Color( 0.564706, 0.564706, 0.564706, 1 )
+custom_fonts/font = SubResource( 40 )
+text = "none"
+valign = 1
+
+[node name="TemplateOrigin" type="Label" parent="CanvasLayer/Popup/BoxTemplate/Preview"]
+margin_left = 698.0
+margin_top = 160.0
+margin_right = 904.0
+margin_bottom = 216.0
+custom_colors/font_color = Color( 0.564706, 0.564706, 0.564706, 1 )
+custom_fonts/font = SubResource( 41 )
+text = "System Template
+from Hyperspace"
+valign = 1
+
+[node name="Info" type="Node2D" parent="CanvasLayer/Popup/BoxTemplate"]
+
+[node name="InfoText" type="Label" parent="CanvasLayer/Popup/BoxTemplate/Info"]
+margin_left = 576.0
+margin_top = 238.0
+margin_right = 912.0
+margin_bottom = 424.0
+custom_colors/font_color = Color( 0.290196, 0.290196, 0.290196, 1 )
+custom_fonts/font = SubResource( 42 )
+text = "Tile: 0
+Color: 1.0, 1.0, 1.0
+Reflection: false
+
+tilesize: 1, 1, 1
+tilerot: 0, 0, 0"
+
+[node name="InfoCover" type="Node2D" parent="CanvasLayer/Popup/BoxTemplate"]
+visible = false
+
+[node name="BG" type="ColorRect" parent="CanvasLayer/Popup/BoxTemplate/InfoCover"]
+margin_left = 568.0
+margin_top = 96.0
+margin_right = 912.0
+margin_bottom = 424.0
+color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[node name="Text" type="Label" parent="CanvasLayer/Popup/BoxTemplate/InfoCover"]
+margin_left = 568.0
+margin_top = 96.0
+margin_right = 912.0
+margin_bottom = 424.0
+custom_colors/font_color = Color( 0.345098, 0.345098, 0.345098, 1 )
+custom_fonts/font = SubResource( 43 )
+text = "Please select a template."
+align = 1
+valign = 1
+
+[node name="CrystalTemplate" type="Node2D" parent="CanvasLayer/Popup"]
+visible = false
+script = ExtResource( 159 )
+
+[node name="Panel" type="ColorRect" parent="CanvasLayer/Popup/CrystalTemplate"]
+margin_left = 24.0
+margin_top = 24.0
+margin_right = 936.0
+margin_bottom = 516.0
+color = Color( 0.117647, 0.117647, 0.117647, 1 )
+
+[node name="TitlePanel" type="ColorRect" parent="CanvasLayer/Popup/CrystalTemplate"]
+margin_left = 24.0
+margin_top = 24.0
+margin_right = 936.0
+margin_bottom = 80.0
+color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[node name="Title" type="Label" parent="CanvasLayer/Popup/CrystalTemplate"]
+margin_left = 24.0
+margin_top = 24.0
+margin_right = 936.0
+margin_bottom = 80.0
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "template loader"
+align = 1
+valign = 1
+
+[node name="ListPanel" type="ColorRect" parent="CanvasLayer/Popup/CrystalTemplate"]
+margin_left = 40.0
+margin_top = 96.0
+margin_right = 560.0
+margin_bottom = 496.0
+color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[node name="InfoPanel" type="ColorRect" parent="CanvasLayer/Popup/CrystalTemplate"]
+margin_left = 568.0
+margin_top = 96.0
+margin_right = 912.0
+margin_bottom = 424.0
+color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[node name="InfoPanel2" type="ColorRect" parent="CanvasLayer/Popup/CrystalTemplate"]
+margin_left = 568.0
+margin_top = 96.0
+margin_right = 912.0
+margin_bottom = 224.0
+color = Color( 0.0588235, 0.0588235, 0.0588235, 1 )
+
+[node name="Select" type="Button" parent="CanvasLayer/Popup/CrystalTemplate"]
+margin_left = 568.0
+margin_top = 440.0
+margin_right = 912.0
+margin_bottom = 496.0
+focus_mode = 0
+custom_colors/font_color_disabled = Color( 0.352941, 0.352941, 0.352941, 1 )
+custom_colors/font_color_focus = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color_hover = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color_pressed = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 39 )
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+enabled_focus_mode = 0
+text = "select"
+
+[node name="Close" type="Button" parent="CanvasLayer/Popup/CrystalTemplate"]
+margin_left = 880.0
+margin_top = 24.0
+margin_right = 936.0
+margin_bottom = 80.0
+focus_mode = 0
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+enabled_focus_mode = 0
+
+[node name="Decal063" type="Sprite" parent="CanvasLayer/Popup/CrystalTemplate/Close"]
+position = Vector2( 32, 26 )
+scale = Vector2( 0.436, 0.436 )
+texture = ExtResource( 2 )
+
+[node name="FileList" type="ItemList" parent="CanvasLayer/Popup/CrystalTemplate"]
+margin_left = 40.0
+margin_top = 96.0
+margin_right = 560.0
+margin_bottom = 496.0
+theme = SubResource( 18 )
+custom_colors/guide_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_selected = Color( 0.854902, 0.686275, 1, 1 )
+custom_colors/font_color = Color( 0.384314, 0.384314, 0.384314, 1 )
+custom_fonts/font = SubResource( 9 )
+custom_styles/cursor = SubResource( 10 )
+custom_styles/selected_focus = SubResource( 11 )
+custom_styles/bg_focus = SubResource( 7 )
+custom_styles/cursor_unfocused = SubResource( 12 )
+custom_styles/selected = SubResource( 13 )
+custom_styles/bg = SubResource( 8 )
+icon_scale = 0.1
+
+[node name="Preview" type="Node2D" parent="CanvasLayer/Popup/CrystalTemplate"]
+
+[node name="Preview" type="Sprite" parent="CanvasLayer/Popup/CrystalTemplate/Preview"]
+position = Vector2( 632, 160 )
+scale = Vector2( 0.175, 0.175 )
+texture = ExtResource( 158 )
+
+[node name="TemplateName" type="Label" parent="CanvasLayer/Popup/CrystalTemplate/Preview"]
+margin_left = 698.0
+margin_top = 104.0
+margin_right = 904.0
+margin_bottom = 160.0
+custom_colors/font_color = Color( 0.564706, 0.564706, 0.564706, 1 )
+custom_fonts/font = SubResource( 40 )
+text = "basic_st"
+valign = 1
+
+[node name="TemplateOrigin" type="Label" parent="CanvasLayer/Popup/CrystalTemplate/Preview"]
+margin_left = 698.0
+margin_top = 160.0
+margin_right = 904.0
+margin_bottom = 216.0
+custom_colors/font_color = Color( 0.564706, 0.564706, 0.564706, 1 )
+custom_fonts/font = SubResource( 41 )
+text = "Original template
+from smash hit"
+valign = 1
+
+[node name="Info" type="Node2D" parent="CanvasLayer/Popup/CrystalTemplate"]
+
+[node name="InfoText" type="Label" parent="CanvasLayer/Popup/CrystalTemplate/Info"]
+margin_left = 576.0
+margin_top = 238.0
+margin_right = 912.0
+margin_bottom = 424.0
+custom_colors/font_color = Color( 0.290196, 0.290196, 0.290196, 1 )
+custom_fonts/font = SubResource( 42 )
+text = "Color: 1.0, 1.0, 1.0"
+
+[node name="InfoCover" type="Node2D" parent="CanvasLayer/Popup/CrystalTemplate"]
+visible = false
+
+[node name="BG" type="ColorRect" parent="CanvasLayer/Popup/CrystalTemplate/InfoCover"]
+margin_left = 568.0
+margin_top = 96.0
+margin_right = 912.0
+margin_bottom = 424.0
+color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[node name="Text" type="Label" parent="CanvasLayer/Popup/CrystalTemplate/InfoCover"]
+margin_left = 568.0
+margin_top = 96.0
+margin_right = 912.0
+margin_bottom = 424.0
+custom_colors/font_color = Color( 0.345098, 0.345098, 0.345098, 1 )
+custom_fonts/font = SubResource( 43 )
+text = "Please select a template."
+align = 1
+valign = 1
+
+[node name="GlassTemplate" type="Node2D" parent="CanvasLayer/Popup"]
+visible = false
+script = ExtResource( 161 )
+
+[node name="Panel" type="ColorRect" parent="CanvasLayer/Popup/GlassTemplate"]
+margin_left = 24.0
+margin_top = 24.0
+margin_right = 936.0
+margin_bottom = 516.0
+color = Color( 0.117647, 0.117647, 0.117647, 1 )
+
+[node name="TitlePanel" type="ColorRect" parent="CanvasLayer/Popup/GlassTemplate"]
+margin_left = 24.0
+margin_top = 24.0
+margin_right = 936.0
+margin_bottom = 80.0
+color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[node name="Title" type="Label" parent="CanvasLayer/Popup/GlassTemplate"]
+margin_left = 24.0
+margin_top = 24.0
+margin_right = 936.0
+margin_bottom = 80.0
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "template loader"
+align = 1
+valign = 1
+
+[node name="ListPanel" type="ColorRect" parent="CanvasLayer/Popup/GlassTemplate"]
+margin_left = 40.0
+margin_top = 96.0
+margin_right = 560.0
+margin_bottom = 496.0
+color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[node name="InfoPanel" type="ColorRect" parent="CanvasLayer/Popup/GlassTemplate"]
+margin_left = 568.0
+margin_top = 96.0
+margin_right = 912.0
+margin_bottom = 424.0
+color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[node name="InfoPanel2" type="ColorRect" parent="CanvasLayer/Popup/GlassTemplate"]
+margin_left = 568.0
+margin_top = 96.0
+margin_right = 912.0
+margin_bottom = 224.0
+color = Color( 0.0588235, 0.0588235, 0.0588235, 1 )
+
+[node name="Select" type="Button" parent="CanvasLayer/Popup/GlassTemplate"]
+margin_left = 568.0
+margin_top = 440.0
+margin_right = 912.0
+margin_bottom = 496.0
+focus_mode = 0
+custom_colors/font_color_disabled = Color( 0.352941, 0.352941, 0.352941, 1 )
+custom_colors/font_color_focus = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color_hover = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color_pressed = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 39 )
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+enabled_focus_mode = 0
+text = "select"
+
+[node name="Close" type="Button" parent="CanvasLayer/Popup/GlassTemplate"]
+margin_left = 880.0
+margin_top = 24.0
+margin_right = 936.0
+margin_bottom = 80.0
+focus_mode = 0
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+enabled_focus_mode = 0
+
+[node name="Decal063" type="Sprite" parent="CanvasLayer/Popup/GlassTemplate/Close"]
+position = Vector2( 32, 26 )
+scale = Vector2( 0.436, 0.436 )
+texture = ExtResource( 2 )
+
+[node name="FileList" type="ItemList" parent="CanvasLayer/Popup/GlassTemplate"]
+margin_left = 40.0
+margin_top = 96.0
+margin_right = 560.0
+margin_bottom = 496.0
+theme = SubResource( 18 )
+custom_colors/guide_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_selected = Color( 0.854902, 0.686275, 1, 1 )
+custom_colors/font_color = Color( 0.384314, 0.384314, 0.384314, 1 )
+custom_fonts/font = SubResource( 9 )
+custom_styles/cursor = SubResource( 10 )
+custom_styles/selected_focus = SubResource( 11 )
+custom_styles/bg_focus = SubResource( 7 )
+custom_styles/cursor_unfocused = SubResource( 12 )
+custom_styles/selected = SubResource( 13 )
+custom_styles/bg = SubResource( 8 )
+icon_scale = 0.08
+
+[node name="Preview" type="Node2D" parent="CanvasLayer/Popup/GlassTemplate"]
+
+[node name="Preview" type="Sprite" parent="CanvasLayer/Popup/GlassTemplate/Preview"]
+position = Vector2( 632, 160 )
+scale = Vector2( 0.158, 0.158 )
+texture = ExtResource( 162 )
+
+[node name="TemplateName" type="Label" parent="CanvasLayer/Popup/GlassTemplate/Preview"]
+margin_left = 698.0
+margin_top = 104.0
+margin_right = 904.0
+margin_bottom = 160.0
+custom_colors/font_color = Color( 0.564706, 0.564706, 0.564706, 1 )
+custom_fonts/font = SubResource( 40 )
+text = "basic_st"
+valign = 1
+
+[node name="TemplateOrigin" type="Label" parent="CanvasLayer/Popup/GlassTemplate/Preview"]
+margin_left = 698.0
+margin_top = 160.0
+margin_right = 904.0
+margin_bottom = 216.0
+custom_colors/font_color = Color( 0.564706, 0.564706, 0.564706, 1 )
+custom_fonts/font = SubResource( 41 )
+text = "Original template
+from smash hit"
+valign = 1
+
+[node name="Info" type="Node2D" parent="CanvasLayer/Popup/GlassTemplate"]
+
+[node name="InfoText" type="Label" parent="CanvasLayer/Popup/GlassTemplate/Info"]
+margin_left = 576.0
+margin_top = 238.0
+margin_right = 912.0
+margin_bottom = 424.0
+custom_colors/font_color = Color( 0.290196, 0.290196, 0.290196, 1 )
+custom_fonts/font = SubResource( 42 )
+text = "Color: 1.0, 1.0, 1.0"
+
+[node name="InfoCover" type="Node2D" parent="CanvasLayer/Popup/GlassTemplate"]
+visible = false
+
+[node name="BG" type="ColorRect" parent="CanvasLayer/Popup/GlassTemplate/InfoCover"]
+margin_left = 568.0
+margin_top = 96.0
+margin_right = 912.0
+margin_bottom = 424.0
+color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[node name="Text" type="Label" parent="CanvasLayer/Popup/GlassTemplate/InfoCover"]
+margin_left = 568.0
+margin_top = 96.0
+margin_right = 912.0
+margin_bottom = 424.0
+custom_colors/font_color = Color( 0.345098, 0.345098, 0.345098, 1 )
+custom_fonts/font = SubResource( 43 )
+text = "Please select a template."
+align = 1
+valign = 1
+
+[node name="TileLoader" type="Node2D" parent="CanvasLayer/Popup"]
+visible = false
+script = ExtResource( 79 )
+
+[node name="Panel" type="ColorRect" parent="CanvasLayer/Popup/TileLoader"]
+margin_left = 24.0
+margin_top = 24.0
+margin_right = 936.0
+margin_bottom = 516.0
+color = Color( 0.117647, 0.117647, 0.117647, 1 )
+
+[node name="TitlePanel" type="ColorRect" parent="CanvasLayer/Popup/TileLoader"]
+margin_left = 24.0
+margin_top = 24.0
+margin_right = 936.0
+margin_bottom = 80.0
+color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[node name="Title" type="Label" parent="CanvasLayer/Popup/TileLoader"]
+margin_left = 24.0
+margin_top = 24.0
+margin_right = 936.0
+margin_bottom = 80.0
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "tile loader"
+align = 1
+valign = 1
+
+[node name="ListPanel" type="ColorRect" parent="CanvasLayer/Popup/TileLoader"]
+margin_left = 40.0
+margin_top = 96.0
+margin_right = 728.0
+margin_bottom = 496.0
+color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[node name="InfoPanel2" type="ColorRect" parent="CanvasLayer/Popup/TileLoader"]
+margin_left = 736.0
+margin_top = 96.0
+margin_right = 912.0
+margin_bottom = 432.0
+color = Color( 0.0588235, 0.0588235, 0.0588235, 1 )
+
+[node name="Select" type="Button" parent="CanvasLayer/Popup/TileLoader"]
+margin_left = 736.0
+margin_top = 440.0
+margin_right = 912.0
+margin_bottom = 496.0
+focus_mode = 0
+custom_colors/font_color_disabled = Color( 0.352941, 0.352941, 0.352941, 1 )
+custom_colors/font_color_focus = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color_hover = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color_pressed = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 39 )
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+enabled_focus_mode = 0
+text = "select"
+
+[node name="Close" type="Button" parent="CanvasLayer/Popup/TileLoader"]
+margin_left = 880.0
+margin_top = 24.0
+margin_right = 936.0
+margin_bottom = 80.0
+focus_mode = 0
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+enabled_focus_mode = 0
+
+[node name="Decal063" type="Sprite" parent="CanvasLayer/Popup/TileLoader/Close"]
+position = Vector2( 32, 26 )
+scale = Vector2( 0.436, 0.436 )
+texture = ExtResource( 2 )
+
+[node name="Preview" type="Node2D" parent="CanvasLayer/Popup/TileLoader"]
+
+[node name="Preview" type="Sprite" parent="CanvasLayer/Popup/TileLoader/Preview"]
+position = Vector2( 824, 184 )
+scale = Vector2( 0.595041, 0.595041 )
+texture = ExtResource( 14 )
+
+[node name="ID" type="Label" parent="CanvasLayer/Popup/TileLoader/Preview"]
+margin_left = 736.0
+margin_top = 256.0
+margin_right = 912.0
+margin_bottom = 336.0
+custom_colors/font_color = Color( 0.564706, 0.564706, 0.564706, 1 )
+custom_fonts/font = SubResource( 40 )
+text = "0 (0x0)"
+align = 1
+valign = 1
+
+[node name="List" type="Node2D" parent="CanvasLayer/Popup/TileLoader"]
+__meta__ = {
+"_edit_group_": true,
+"_edit_lock_": true
+}
+
+[node name="Tile000" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 76, 132 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 14 )
+
+[node name="Tile001" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 132, 132 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 69 )
+
+[node name="Tile002" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 188, 132 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 67 )
+
+[node name="Tile003" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 244, 132 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 71 )
+
+[node name="Tile004" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 300, 132 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 72 )
+
+[node name="Tile005" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 356, 132 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 73 )
+
+[node name="Tile006" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 412, 132 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 64 )
+
+[node name="Tile007" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 468, 132 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 65 )
+
+[node name="Tile008" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 524, 132 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 66 )
+
+[node name="Tile009" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 580, 132 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 68 )
+
+[node name="Tile010" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 636, 132 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 70 )
+
+[node name="Tile011" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 692, 132 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 76 )
+
+[node name="Tile012" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 76, 188 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 78 )
+
+[node name="Tile013" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 132, 188 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 77 )
+
+[node name="Tile014" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 188, 188 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 74 )
+
+[node name="Tile015" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 244, 188 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 75 )
+
+[node name="Tile016" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 300, 188 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 52 )
+
+[node name="Tile017" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 356, 188 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 55 )
+
+[node name="Tile018" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 412, 188 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 59 )
+
+[node name="Tile019" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 468, 188 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 53 )
+
+[node name="Tile020" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 524, 188 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 54 )
+
+[node name="Tile021" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 580, 188 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 61 )
+
+[node name="Tile022" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 636, 188 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 60 )
+
+[node name="Tile023" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 692, 188 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 56 )
+
+[node name="Tile024" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 76, 244 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 57 )
+
+[node name="Tile025" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 132, 244 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 62 )
+
+[node name="Tile026" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 188, 244 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 58 )
+
+[node name="Tile027" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 244, 244 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 63 )
+
+[node name="Tile028" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 300, 244 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 42 )
+
+[node name="Tile029" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 356, 244 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 43 )
+
+[node name="Tile030" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 412, 244 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 38 )
+
+[node name="Tile031" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 468, 244 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 44 )
+
+[node name="Tile032" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 524, 244 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 40 )
+
+[node name="Tile033" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 580, 244 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 45 )
+
+[node name="Tile034" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 636, 244 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 46 )
+
+[node name="Tile035" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 692, 244 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 41 )
+
+[node name="Tile036" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 76, 300 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 37 )
+
+[node name="Tile037" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 132, 300 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 39 )
+
+[node name="Tile038" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 188, 300 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 32 )
+
+[node name="Tile039" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 244, 300 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 36 )
+
+[node name="Tile040" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 300, 300 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 33 )
+
+[node name="Tile041" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 356, 300 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 34 )
+
+[node name="Tile042" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 412, 300 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 35 )
+
+[node name="Tile043" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 468, 300 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 48 )
+
+[node name="Tile044" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 524, 300 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 49 )
+
+[node name="Tile045" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 580, 300 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 50 )
+
+[node name="Tile046" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 636, 300 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 47 )
+
+[node name="Tile047" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 692, 300 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 16 )
+
+[node name="Tile048" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 76, 356 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 18 )
+
+[node name="Tile049" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 132, 356 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 26 )
+
+[node name="Tile050" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 188, 356 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 19 )
+
+[node name="Tile051" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 244, 356 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 22 )
+
+[node name="Tile052" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 300, 356 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 20 )
+
+[node name="Tile053" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 356, 356 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 31 )
+
+[node name="Tile054" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 412, 356 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 29 )
+
+[node name="Tile055" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 468, 356 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 51 )
+
+[node name="Tile056" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 524, 356 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 23 )
+
+[node name="Tile057" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 580, 356 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 28 )
+
+[node name="Tile058" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 636, 356 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 24 )
+
+[node name="Tile059" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 692, 356 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 17 )
+
+[node name="Tile060" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 76, 412 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 30 )
+
+[node name="Tile061" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 132, 412 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 25 )
+
+[node name="Tile062" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 188, 412 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 27 )
+
+[node name="Tile063" type="Sprite" parent="CanvasLayer/Popup/TileLoader/List"]
+position = Vector2( 244, 412 )
+scale = Vector2( 0.231405, 0.231405 )
+texture = ExtResource( 21 )
+
+[node name="Cursor" type="Node2D" parent="CanvasLayer/Popup/TileLoader"]
+
+[node name="Selectedtile" type="Sprite" parent="CanvasLayer/Popup/TileLoader/Cursor"]
+modulate = Color( 1, 0.423529, 0, 1 )
+position = Vector2( 76, 132 )
+scale = Vector2( 0.0875, 0.0875 )
+texture = ExtResource( 80 )
+
+[node name="Decal013" type="Sprite" parent="CanvasLayer/Popup/TileLoader/Cursor"]
+position = Vector2( 76, 84 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 81 )
+
+[node name="CursorAnimation" type="AnimationPlayer" parent="CanvasLayer/Popup/TileLoader/Cursor"]
+anims/Animation = SubResource( 44 )
+anims/RESET = SubResource( 45 )
+
+[node name="CursorGlobalAnim" type="AnimationPlayer" parent="CanvasLayer/Popup/TileLoader/Cursor"]
+anims/RESET = SubResource( 46 )
+anims/Select = SubResource( 47 )
+
+[node name="DecalLoader" type="Node2D" parent="CanvasLayer/Popup"]
+visible = false
+script = ExtResource( 151 )
+
+[node name="Panel" type="ColorRect" parent="CanvasLayer/Popup/DecalLoader"]
+margin_left = 24.0
+margin_top = 24.0
+margin_right = 936.0
+margin_bottom = 516.0
+color = Color( 0.117647, 0.117647, 0.117647, 1 )
+
+[node name="TitlePanel" type="ColorRect" parent="CanvasLayer/Popup/DecalLoader"]
+margin_left = 24.0
+margin_top = 24.0
+margin_right = 936.0
+margin_bottom = 80.0
+color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[node name="Title" type="Label" parent="CanvasLayer/Popup/DecalLoader"]
+margin_left = 24.0
+margin_top = 24.0
+margin_right = 936.0
+margin_bottom = 80.0
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "decal loader"
+align = 1
+valign = 1
+
+[node name="ListPanel" type="ColorRect" parent="CanvasLayer/Popup/DecalLoader"]
+margin_left = 40.0
+margin_top = 96.0
+margin_right = 728.0
+margin_bottom = 496.0
+color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[node name="InfoPanel2" type="ColorRect" parent="CanvasLayer/Popup/DecalLoader"]
+margin_left = 736.0
+margin_top = 96.0
+margin_right = 912.0
+margin_bottom = 432.0
+color = Color( 0.0588235, 0.0588235, 0.0588235, 1 )
+
+[node name="Select" type="Button" parent="CanvasLayer/Popup/DecalLoader"]
+margin_left = 736.0
+margin_top = 440.0
+margin_right = 912.0
+margin_bottom = 496.0
+focus_mode = 0
+custom_colors/font_color_disabled = Color( 0.352941, 0.352941, 0.352941, 1 )
+custom_colors/font_color_focus = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color_hover = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color_pressed = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 39 )
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+enabled_focus_mode = 0
+text = "select"
+
+[node name="Close" type="Button" parent="CanvasLayer/Popup/DecalLoader"]
+margin_left = 880.0
+margin_top = 24.0
+margin_right = 936.0
+margin_bottom = 80.0
+focus_mode = 0
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+enabled_focus_mode = 0
+
+[node name="Decal063" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/Close"]
+position = Vector2( 32, 26 )
+scale = Vector2( 0.436, 0.436 )
+texture = ExtResource( 2 )
+
+[node name="Preview" type="Node2D" parent="CanvasLayer/Popup/DecalLoader"]
+
+[node name="Preview" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/Preview"]
+position = Vector2( 824, 184 )
+scale = Vector2( 1.152, 1.152 )
+texture = ExtResource( 107 )
+
+[node name="ID" type="Label" parent="CanvasLayer/Popup/DecalLoader/Preview"]
+margin_left = 736.0
+margin_top = 256.0
+margin_right = 912.0
+margin_bottom = 336.0
+custom_colors/font_color = Color( 0.564706, 0.564706, 0.564706, 1 )
+custom_fonts/font = SubResource( 40 )
+text = "0 (0x0)"
+align = 1
+valign = 1
+
+[node name="List" type="Node2D" parent="CanvasLayer/Popup/DecalLoader"]
+__meta__ = {
+"_edit_group_": true,
+"_edit_lock_": true
+}
+
+[node name="Tile000" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 76, 132 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 107 )
+
+[node name="Tile001" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 132, 132 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 96 )
+
+[node name="Tile002" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 188, 132 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 105 )
+
+[node name="Tile003" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 244, 132 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 94 )
+
+[node name="Tile004" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 300, 132 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 99 )
+
+[node name="Tile005" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 356, 132 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 100 )
+
+[node name="Tile006" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 412, 132 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 97 )
+
+[node name="Tile007" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 468, 132 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 83 )
+
+[node name="Tile008" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 524, 132 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 95 )
+
+[node name="Tile009" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 580, 132 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 98 )
+
+[node name="Tile010" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 636, 132 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 101 )
+
+[node name="Tile011" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 692, 132 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 102 )
+
+[node name="Tile012" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 76, 188 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 103 )
+
+[node name="Tile013" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 132, 188 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 81 )
+
+[node name="Tile014" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 188, 188 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 104 )
+
+[node name="Tile015" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 244, 188 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 119 )
+
+[node name="Tile016" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 300, 188 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 113 )
+
+[node name="Tile017" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 356, 188 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 114 )
+
+[node name="Tile018" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 412, 188 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 115 )
+
+[node name="Tile019" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 468, 188 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 116 )
+
+[node name="Tile020" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 524, 188 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 118 )
+
+[node name="Tile021" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 580, 188 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 117 )
+
+[node name="Tile022" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 636, 188 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 87 )
+
+[node name="Tile023" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 692, 188 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 88 )
+
+[node name="Tile024" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 76, 244 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 89 )
+
+[node name="Tile025" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 132, 244 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 86 )
+
+[node name="Tile026" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 188, 244 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 90 )
+
+[node name="Tile027" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 244, 244 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 91 )
+
+[node name="Tile028" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 300, 244 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 108 )
+
+[node name="Tile029" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 356, 244 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 109 )
+
+[node name="Tile030" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 412, 244 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 106 )
+
+[node name="Tile031" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 468, 244 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 110 )
+
+[node name="Tile032" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 524, 244 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 93 )
+
+[node name="Tile033" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 580, 244 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 92 )
+
+[node name="Tile034" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 636, 244 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 112 )
+
+[node name="Tile035" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 692, 244 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 111 )
+
+[node name="Tile036" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 76, 300 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 122 )
+
+[node name="Tile037" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 132, 300 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 146 )
+
+[node name="Tile038" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 188, 300 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 126 )
+
+[node name="Tile039" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 244, 300 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 129 )
+
+[node name="Tile040" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 300, 300 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 120 )
+
+[node name="Tile041" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 356, 300 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 125 )
+
+[node name="Tile042" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 412, 300 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 141 )
+
+[node name="Tile043" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 468, 300 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 145 )
+
+[node name="Tile044" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 524, 300 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 127 )
+
+[node name="Tile045" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 580, 300 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 128 )
+
+[node name="Tile046" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 636, 300 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 142 )
+
+[node name="Tile047" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 692, 300 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 139 )
+
+[node name="Tile048" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 76, 356 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 136 )
+
+[node name="Tile049" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 132, 356 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 137 )
+
+[node name="Tile050" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 188, 356 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 138 )
+
+[node name="Tile051" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 244, 356 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 130 )
+
+[node name="Tile052" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 300, 356 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 121 )
+
+[node name="Tile053" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 356, 356 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 143 )
+
+[node name="Tile054" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 412, 356 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 123 )
+
+[node name="Tile055" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 468, 356 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 124 )
+
+[node name="Tile056" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 524, 356 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 133 )
+
+[node name="Tile057" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 580, 356 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 140 )
+
+[node name="Tile058" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 636, 356 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 131 )
+
+[node name="Tile059" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 692, 356 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 135 )
+
+[node name="Tile060" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 76, 412 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 144 )
+
+[node name="Tile061" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 132, 412 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 132 )
+
+[node name="Tile062" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 188, 412 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 134 )
+
+[node name="Tile063" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 244, 412 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 2 )
+
+[node name="Tile064" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 300, 412 )
+scale = Vector2( 0.112, 0.112 )
+texture = ExtResource( 147 )
+
+[node name="Tile065" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 356, 412 )
+scale = Vector2( 0.112, 0.112 )
+texture = ExtResource( 148 )
+
+[node name="Tile066" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 412, 412 )
+scale = Vector2( 0.112, 0.112 )
+texture = ExtResource( 149 )
+
+[node name="Tile067" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/List"]
+position = Vector2( 468, 412 )
+scale = Vector2( 0.112, 0.112 )
+texture = ExtResource( 150 )
+
+[node name="Cursor" type="Node2D" parent="CanvasLayer/Popup/DecalLoader"]
+
+[node name="Selectedtile" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/Cursor"]
+modulate = Color( 1, 0.423529, 0, 1 )
+position = Vector2( 76, 132 )
+scale = Vector2( 0.0875, 0.0875 )
+texture = ExtResource( 80 )
+
+[node name="Decal013" type="Sprite" parent="CanvasLayer/Popup/DecalLoader/Cursor"]
+position = Vector2( 76, 84 )
+scale = Vector2( 0.448, 0.448 )
+texture = ExtResource( 81 )
+
+[node name="CursorAnimation" type="AnimationPlayer" parent="CanvasLayer/Popup/DecalLoader/Cursor"]
+anims/Animation = SubResource( 54 )
+anims/RESET = SubResource( 55 )
+
+[node name="CursorGlobalAnim" type="AnimationPlayer" parent="CanvasLayer/Popup/DecalLoader/Cursor"]
+anims/RESET = SubResource( 56 )
+anims/Select = SubResource( 57 )
+
+[node name="ColorPicker" type="Node2D" parent="CanvasLayer/Popup"]
+visible = false
+script = ExtResource( 82 )
+
+[node name="Panel" type="ColorRect" parent="CanvasLayer/Popup/ColorPicker"]
+margin_left = 24.0
+margin_top = 24.0
+margin_right = 936.0
+margin_bottom = 516.0
+color = Color( 0.117647, 0.117647, 0.117647, 1 )
+
+[node name="TitlePanel" type="ColorRect" parent="CanvasLayer/Popup/ColorPicker"]
+margin_left = 24.0
+margin_top = 24.0
+margin_right = 936.0
+margin_bottom = 80.0
+color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[node name="Title" type="Label" parent="CanvasLayer/Popup/ColorPicker"]
+margin_left = 24.0
+margin_top = 24.0
+margin_right = 936.0
+margin_bottom = 80.0
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "color picker"
+align = 1
+valign = 1
+
+[node name="ColorPanel" type="ColorRect" parent="CanvasLayer/Popup/ColorPicker"]
+margin_left = 40.0
+margin_top = 96.0
+margin_right = 624.0
+margin_bottom = 496.0
+color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[node name="InfoPanel2" type="ColorRect" parent="CanvasLayer/Popup/ColorPicker"]
+margin_left = 632.0
+margin_top = 96.0
+margin_right = 912.0
+margin_bottom = 432.0
+color = Color( 0.0588235, 0.0588235, 0.0588235, 1 )
+
+[node name="Select" type="Button" parent="CanvasLayer/Popup/ColorPicker"]
+margin_left = 632.0
+margin_top = 440.0
+margin_right = 912.0
+margin_bottom = 496.0
+focus_mode = 0
+custom_colors/font_color_disabled = Color( 0.352941, 0.352941, 0.352941, 1 )
+custom_colors/font_color_focus = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color_hover = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color_pressed = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 39 )
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+enabled_focus_mode = 0
+text = "select"
+
+[node name="Close" type="Button" parent="CanvasLayer/Popup/ColorPicker"]
+margin_left = 880.0
+margin_top = 24.0
+margin_right = 936.0
+margin_bottom = 80.0
+focus_mode = 0
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+enabled_focus_mode = 0
+
+[node name="Decal063" type="Sprite" parent="CanvasLayer/Popup/ColorPicker/Close"]
+position = Vector2( 32, 26 )
+scale = Vector2( 0.436, 0.436 )
+texture = ExtResource( 2 )
+
+[node name="Slider" type="Node2D" parent="CanvasLayer/Popup/ColorPicker"]
+
+[node name="RBG" type="ColorRect" parent="CanvasLayer/Popup/ColorPicker/Slider"]
+modulate = Color( 1, 1, 1, 0.254902 )
+margin_left = 56.0
+margin_top = 112.0
+margin_right = 136.0
+margin_bottom = 480.0
+color = Color( 1, 0.729412, 0.729412, 1 )
+
+[node name="GBG" type="ColorRect" parent="CanvasLayer/Popup/ColorPicker/Slider"]
+modulate = Color( 1, 1, 1, 0.254902 )
+margin_left = 152.0
+margin_top = 112.0
+margin_right = 232.0
+margin_bottom = 480.0
+color = Color( 0.729412, 1, 0.733333, 1 )
+
+[node name="BBG" type="ColorRect" parent="CanvasLayer/Popup/ColorPicker/Slider"]
+modulate = Color( 1, 1, 1, 0.254902 )
+margin_left = 248.0
+margin_top = 112.0
+margin_right = 328.0
+margin_bottom = 480.0
+color = Color( 0.729412, 0.760784, 1, 1 )
+
+[node name="R" type="VScrollBar" parent="CanvasLayer/Popup/ColorPicker/Slider"]
+margin_left = 136.0
+margin_top = 480.0
+margin_right = 216.0
+margin_bottom = 664.0
+rect_rotation = 180.0
+rect_scale = Vector2( 1, 2 )
+custom_styles/grabber_highlight = SubResource( 48 )
+custom_styles/grabber = SubResource( 51 )
+custom_styles/scroll_focus = SubResource( 49 )
+custom_styles/scroll = SubResource( 50 )
+custom_styles/grabber_pressed = SubResource( 52 )
+max_value = 255.0
+value = 255.0
+
+[node name="G" type="VScrollBar" parent="CanvasLayer/Popup/ColorPicker/Slider"]
+margin_left = 232.0
+margin_top = 480.0
+margin_right = 312.0
+margin_bottom = 664.0
+rect_rotation = 180.0
+rect_scale = Vector2( 1, 2 )
+custom_styles/grabber_highlight = SubResource( 48 )
+custom_styles/grabber = SubResource( 51 )
+custom_styles/scroll_focus = SubResource( 49 )
+custom_styles/scroll = SubResource( 50 )
+custom_styles/grabber_pressed = SubResource( 52 )
+max_value = 255.0
+value = 255.0
+
+[node name="B" type="VScrollBar" parent="CanvasLayer/Popup/ColorPicker/Slider"]
+margin_left = 328.0
+margin_top = 480.0
+margin_right = 408.0
+margin_bottom = 664.0
+rect_rotation = 180.0
+rect_scale = Vector2( 1, 2 )
+custom_styles/grabber_highlight = SubResource( 48 )
+custom_styles/grabber = SubResource( 51 )
+custom_styles/scroll_focus = SubResource( 49 )
+custom_styles/scroll = SubResource( 50 )
+custom_styles/grabber_pressed = SubResource( 52 )
+max_value = 255.0
+value = 255.0
+
+[node name="Preview" type="Node2D" parent="CanvasLayer/Popup/ColorPicker"]
+
+[node name="Preview" type="ColorRect" parent="CanvasLayer/Popup/ColorPicker/Preview"]
+margin_left = 640.0
+margin_top = 104.0
+margin_right = 728.0
+margin_bottom = 192.0
+
+[node name="TilePreview" type="Sprite" parent="CanvasLayer/Popup/ColorPicker/Preview"]
+position = Vector2( 772, 148 )
+scale = Vector2( 0.363636, 0.363636 )
+texture = ExtResource( 34 )
+
+[node name="DecalPreview" type="Sprite" parent="CanvasLayer/Popup/ColorPicker/Preview"]
+position = Vector2( 860, 148 )
+scale = Vector2( 0.704, 0.704 )
+texture = ExtResource( 83 )
+
+[node name="ColorText" type="Label" parent="CanvasLayer/Popup/ColorPicker/Preview"]
+margin_left = 640.0
+margin_top = 192.0
+margin_right = 904.0
+margin_bottom = 424.0
+custom_colors/font_color = Color( 0.380392, 0.380392, 0.380392, 1 )
+custom_fonts/font = SubResource( 53 )
+text = "Smash hit (1.0, 1.0, 1.0)
+
+rgb (255, 255, 255)"
+align = 1
+valign = 1
+
+[node name="Pallet" type="Node2D" parent="CanvasLayer/Popup/ColorPicker"]
+
+[node name="Image" type="Node2D" parent="CanvasLayer/Popup/ColorPicker/Pallet"]
+
+[node name="Pallet" type="Sprite" parent="CanvasLayer/Popup/ColorPicker/Pallet/Image"]
+modulate = Color( 1, 1, 1, 0.388235 )
+position = Vector2( 380, 364 )
+scale = Vector2( 0.0875, 0.0875 )
+texture = ExtResource( 84 )
+
+[node name="Pallet2" type="Sprite" parent="CanvasLayer/Popup/ColorPicker/Pallet/Image"]
+modulate = Color( 1, 1, 1, 0.388235 )
+position = Vector2( 444, 364 )
+scale = Vector2( 0.0875, 0.0875 )
+texture = ExtResource( 84 )
+
+[node name="Pallet3" type="Sprite" parent="CanvasLayer/Popup/ColorPicker/Pallet/Image"]
+modulate = Color( 1, 1, 1, 0.388235 )
+position = Vector2( 508, 364 )
+scale = Vector2( 0.0875, 0.0875 )
+texture = ExtResource( 84 )
+
+[node name="Pallet4" type="Sprite" parent="CanvasLayer/Popup/ColorPicker/Pallet/Image"]
+modulate = Color( 1, 1, 1, 0.388235 )
+position = Vector2( 572, 364 )
+scale = Vector2( 0.0875, 0.0875 )
+texture = ExtResource( 84 )
+
+[node name="Pallet5" type="Sprite" parent="CanvasLayer/Popup/ColorPicker/Pallet/Image"]
+modulate = Color( 1, 1, 1, 0.388235 )
+position = Vector2( 380, 428 )
+scale = Vector2( 0.0875, 0.0875 )
+texture = ExtResource( 84 )
+
+[node name="Pallet6" type="Sprite" parent="CanvasLayer/Popup/ColorPicker/Pallet/Image"]
+modulate = Color( 1, 1, 1, 0.388235 )
+position = Vector2( 444, 428 )
+scale = Vector2( 0.0875, 0.0875 )
+texture = ExtResource( 84 )
+
+[node name="Pallet7" type="Sprite" parent="CanvasLayer/Popup/ColorPicker/Pallet/Image"]
+modulate = Color( 1, 1, 1, 0.388235 )
+position = Vector2( 508, 428 )
+scale = Vector2( 0.0875, 0.0875 )
+texture = ExtResource( 84 )
+
+[node name="Pallet8" type="Sprite" parent="CanvasLayer/Popup/ColorPicker/Pallet/Image"]
+modulate = Color( 1, 1, 1, 0.592157 )
+position = Vector2( 572, 428 )
+scale = Vector2( 0.0875, 0.0875 )
+texture = ExtResource( 85 )
+
+[node name="Preview" type="Node2D" parent="CanvasLayer/Popup/ColorPicker/Pallet"]
+
+[node name="1" type="ColorRect" parent="CanvasLayer/Popup/ColorPicker/Pallet/Preview"]
+margin_left = 352.0
+margin_top = 336.0
+margin_right = 408.0
+margin_bottom = 392.0
+mouse_filter = 1
+color = Color( 1, 1, 1, 0 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="2" type="ColorRect" parent="CanvasLayer/Popup/ColorPicker/Pallet/Preview"]
+margin_left = 416.0
+margin_top = 336.0
+margin_right = 472.0
+margin_bottom = 392.0
+mouse_filter = 1
+color = Color( 1, 1, 1, 0 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="3" type="ColorRect" parent="CanvasLayer/Popup/ColorPicker/Pallet/Preview"]
+margin_left = 480.0
+margin_top = 336.0
+margin_right = 536.0
+margin_bottom = 392.0
+mouse_filter = 1
+color = Color( 1, 1, 1, 0 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="4" type="ColorRect" parent="CanvasLayer/Popup/ColorPicker/Pallet/Preview"]
+margin_left = 544.0
+margin_top = 336.0
+margin_right = 600.0
+margin_bottom = 392.0
+mouse_filter = 1
+color = Color( 1, 1, 1, 0 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="5" type="ColorRect" parent="CanvasLayer/Popup/ColorPicker/Pallet/Preview"]
+margin_left = 352.0
+margin_top = 400.0
+margin_right = 408.0
+margin_bottom = 456.0
+mouse_filter = 1
+color = Color( 1, 1, 1, 0 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="6" type="ColorRect" parent="CanvasLayer/Popup/ColorPicker/Pallet/Preview"]
+margin_left = 416.0
+margin_top = 400.0
+margin_right = 472.0
+margin_bottom = 456.0
+mouse_filter = 1
+color = Color( 1, 1, 1, 0 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="7" type="ColorRect" parent="CanvasLayer/Popup/ColorPicker/Pallet/Preview"]
+margin_left = 480.0
+margin_top = 400.0
+margin_right = 536.0
+margin_bottom = 456.0
+mouse_filter = 1
+color = Color( 1, 1, 1, 0 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="8" type="ColorRect" parent="CanvasLayer/Popup/ColorPicker/Pallet/Preview"]
+margin_left = 544.0
+margin_top = 400.0
+margin_right = 600.0
+margin_bottom = 456.0
+mouse_filter = 1
+color = Color( 1, 1, 1, 0 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Pallet1" type="Button" parent="CanvasLayer/Popup/ColorPicker/Pallet"]
+modulate = Color( 1, 1, 1, 0 )
+margin_left = 352.0
+margin_top = 336.0
+margin_right = 408.0
+margin_bottom = 392.0
+focus_mode = 0
+enabled_focus_mode = 0
+
+[node name="Pallet2" type="Button" parent="CanvasLayer/Popup/ColorPicker/Pallet"]
+modulate = Color( 1, 1, 1, 0 )
+margin_left = 416.0
+margin_top = 336.0
+margin_right = 472.0
+margin_bottom = 392.0
+focus_mode = 0
+enabled_focus_mode = 0
+
+[node name="Pallet3" type="Button" parent="CanvasLayer/Popup/ColorPicker/Pallet"]
+modulate = Color( 1, 1, 1, 0 )
+margin_left = 480.0
+margin_top = 336.0
+margin_right = 536.0
+margin_bottom = 392.0
+focus_mode = 0
+enabled_focus_mode = 0
+
+[node name="Pallet4" type="Button" parent="CanvasLayer/Popup/ColorPicker/Pallet"]
+modulate = Color( 1, 1, 1, 0 )
+margin_left = 544.0
+margin_top = 336.0
+margin_right = 600.0
+margin_bottom = 392.0
+focus_mode = 0
+enabled_focus_mode = 0
+
+[node name="Pallet5" type="Button" parent="CanvasLayer/Popup/ColorPicker/Pallet"]
+modulate = Color( 1, 1, 1, 0 )
+margin_left = 352.0
+margin_top = 400.0
+margin_right = 408.0
+margin_bottom = 456.0
+focus_mode = 0
+enabled_focus_mode = 0
+
+[node name="Pallet6" type="Button" parent="CanvasLayer/Popup/ColorPicker/Pallet"]
+modulate = Color( 1, 1, 1, 0 )
+margin_left = 416.0
+margin_top = 400.0
+margin_right = 472.0
+margin_bottom = 456.0
+focus_mode = 0
+enabled_focus_mode = 0
+
+[node name="Pallet7" type="Button" parent="CanvasLayer/Popup/ColorPicker/Pallet"]
+modulate = Color( 1, 1, 1, 0 )
+margin_left = 480.0
+margin_top = 400.0
+margin_right = 536.0
+margin_bottom = 456.0
+focus_mode = 0
+enabled_focus_mode = 0
+
+[node name="Clear" type="Button" parent="CanvasLayer/Popup/ColorPicker/Pallet"]
+modulate = Color( 1, 1, 1, 0 )
+margin_left = 544.0
+margin_top = 400.0
+margin_right = 600.0
+margin_bottom = 456.0
+focus_mode = 0
+enabled_focus_mode = 0
+
+[node name="LineR" type="LineEdit" parent="CanvasLayer/Popup/ColorPicker"]
+modulate = Color( 1, 0.795898, 0.795898, 1 )
+margin_left = 344.0
+margin_top = 112.0
+margin_right = 608.0
+margin_bottom = 168.0
+custom_colors/cursor_color = Color( 0.807843, 0.529412, 1, 1 )
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 32 )
+custom_styles/read_only = SubResource( 33 )
+custom_styles/focus = SubResource( 33 )
+custom_styles/normal = SubResource( 34 )
+text = "1.0"
+placeholder_text = "-"
+
+[node name="LineG" type="LineEdit" parent="CanvasLayer/Popup/ColorPicker"]
+modulate = Color( 0.843137, 1, 0.796078, 1 )
+margin_left = 344.0
+margin_top = 184.0
+margin_right = 608.0
+margin_bottom = 240.0
+custom_colors/cursor_color = Color( 0.807843, 0.529412, 1, 1 )
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 32 )
+custom_styles/read_only = SubResource( 33 )
+custom_styles/focus = SubResource( 33 )
+custom_styles/normal = SubResource( 34 )
+text = "1.0"
+placeholder_text = "-"
+
+[node name="LineB" type="LineEdit" parent="CanvasLayer/Popup/ColorPicker"]
+modulate = Color( 0.796078, 0.8, 1, 1 )
+margin_left = 344.0
+margin_top = 256.0
+margin_right = 608.0
+margin_bottom = 312.0
+custom_colors/cursor_color = Color( 0.807843, 0.529412, 1, 1 )
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 32 )
+custom_styles/read_only = SubResource( 33 )
+custom_styles/focus = SubResource( 33 )
+custom_styles/normal = SubResource( 34 )
+text = "1.0"
+placeholder_text = "-"
+
+[node name="Powerup" type="Node2D" parent="CanvasLayer/Popup"]
+visible = false
+script = ExtResource( 157 )
+
+[node name="Panel" type="ColorRect" parent="CanvasLayer/Popup/Powerup"]
+margin_left = 88.0
+margin_top = 24.0
+margin_right = 872.0
+margin_bottom = 516.0
+color = Color( 0.117647, 0.117647, 0.117647, 1 )
+
+[node name="TitlePanel" type="ColorRect" parent="CanvasLayer/Popup/Powerup"]
+margin_left = 88.0
+margin_top = 24.0
+margin_right = 872.0
+margin_bottom = 80.0
+color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[node name="ColorPanel" type="ColorRect" parent="CanvasLayer/Popup/Powerup"]
+margin_left = 104.0
+margin_top = 96.0
+margin_right = 856.0
+margin_bottom = 432.0
+color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[node name="ColorPanel2" type="ColorRect" parent="CanvasLayer/Popup/Powerup"]
+margin_left = 104.0
+margin_top = 96.0
+margin_right = 160.0
+margin_bottom = 432.0
+color = Color( 0.0627451, 0.0627451, 0.0627451, 1 )
+
+[node name="ColorPanel3" type="ColorRect" parent="CanvasLayer/Popup/Powerup"]
+margin_left = 104.0
+margin_top = 376.0
+margin_right = 160.0
+margin_bottom = 432.0
+color = Color( 0.0470588, 0.0470588, 0.0470588, 1 )
+
+[node name="ColorPanel4" type="ColorRect" parent="CanvasLayer/Popup/Powerup"]
+margin_left = 160.0
+margin_top = 376.0
+margin_right = 856.0
+margin_bottom = 432.0
+color = Color( 0.0784314, 0.0784314, 0.0784314, 1 )
+
+[node name="Title" type="Label" parent="CanvasLayer/Popup/Powerup"]
+margin_left = 88.0
+margin_top = 24.0
+margin_right = 872.0
+margin_bottom = 80.0
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "powerup picker"
+align = 1
+valign = 1
+
+[node name="Ballfrenzy" type="Button" parent="CanvasLayer/Popup/Powerup"]
+margin_left = 160.0
+margin_top = 96.0
+margin_right = 856.0
+margin_bottom = 152.0
+focus_mode = 0
+custom_colors/font_color_disabled = Color( 0.352941, 0.352941, 0.352941, 1 )
+custom_colors/font_color_focus = Color( 0.380392, 0.380392, 0.380392, 1 )
+custom_colors/font_color = Color( 0.380392, 0.380392, 0.380392, 1 )
+custom_colors/font_color_hover = Color( 0.380392, 0.380392, 0.380392, 1 )
+custom_colors/font_color_pressed = Color( 0.380392, 0.380392, 0.380392, 1 )
+custom_fonts/font = SubResource( 58 )
+custom_styles/hover = SubResource( 60 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 59 )
+enabled_focus_mode = 0
+text = " ballfrenzy"
+align = 0
+
+[node name="Nitroballs" type="Button" parent="CanvasLayer/Popup/Powerup"]
+margin_left = 160.0
+margin_top = 152.0
+margin_right = 856.0
+margin_bottom = 208.0
+focus_mode = 0
+custom_colors/font_color_disabled = Color( 0.352941, 0.352941, 0.352941, 1 )
+custom_colors/font_color_focus = Color( 0.380392, 0.380392, 0.380392, 1 )
+custom_colors/font_color = Color( 0.380392, 0.380392, 0.380392, 1 )
+custom_colors/font_color_hover = Color( 0.380392, 0.380392, 0.380392, 1 )
+custom_colors/font_color_pressed = Color( 0.380392, 0.380392, 0.380392, 1 )
+custom_fonts/font = SubResource( 58 )
+custom_styles/hover = SubResource( 60 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 59 )
+enabled_focus_mode = 0
+text = " nitroballs"
+align = 0
+
+[node name="Slowmotion" type="Button" parent="CanvasLayer/Popup/Powerup"]
+margin_left = 160.0
+margin_top = 208.0
+margin_right = 856.0
+margin_bottom = 264.0
+focus_mode = 0
+custom_colors/font_color_disabled = Color( 0.352941, 0.352941, 0.352941, 1 )
+custom_colors/font_color_focus = Color( 0.380392, 0.380392, 0.380392, 1 )
+custom_colors/font_color = Color( 0.380392, 0.380392, 0.380392, 1 )
+custom_colors/font_color_hover = Color( 0.380392, 0.380392, 0.380392, 1 )
+custom_colors/font_color_pressed = Color( 0.380392, 0.380392, 0.380392, 1 )
+custom_fonts/font = SubResource( 58 )
+custom_styles/hover = SubResource( 60 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 59 )
+enabled_focus_mode = 0
+text = " slowmotion"
+align = 0
+
+[node name="Extraball" type="Button" parent="CanvasLayer/Popup/Powerup"]
+margin_left = 160.0
+margin_top = 264.0
+margin_right = 856.0
+margin_bottom = 320.0
+focus_mode = 0
+custom_colors/font_color_disabled = Color( 0.352941, 0.352941, 0.352941, 1 )
+custom_colors/font_color_focus = Color( 0.380392, 0.380392, 0.380392, 1 )
+custom_colors/font_color = Color( 0.380392, 0.380392, 0.380392, 1 )
+custom_colors/font_color_hover = Color( 0.380392, 0.380392, 0.380392, 1 )
+custom_colors/font_color_pressed = Color( 0.380392, 0.380392, 0.380392, 1 )
+custom_fonts/font = SubResource( 58 )
+custom_styles/hover = SubResource( 60 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 59 )
+enabled_focus_mode = 0
+text = " extraball"
+align = 0
+
+[node name="Multiball" type="Button" parent="CanvasLayer/Popup/Powerup"]
+margin_left = 160.0
+margin_top = 320.0
+margin_right = 856.0
+margin_bottom = 376.0
+focus_mode = 0
+custom_colors/font_color_disabled = Color( 0.352941, 0.352941, 0.352941, 1 )
+custom_colors/font_color_focus = Color( 0.380392, 0.380392, 0.380392, 1 )
+custom_colors/font_color = Color( 0.380392, 0.380392, 0.380392, 1 )
+custom_colors/font_color_hover = Color( 0.380392, 0.380392, 0.380392, 1 )
+custom_colors/font_color_pressed = Color( 0.380392, 0.380392, 0.380392, 1 )
+custom_fonts/font = SubResource( 58 )
+custom_styles/hover = SubResource( 60 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 59 )
+enabled_focus_mode = 0
+text = " multiball"
+align = 0
+
+[node name="Selected" type="Button" parent="CanvasLayer/Popup/Powerup"]
+margin_left = 160.0
+margin_top = 374.0
+margin_right = 856.0
+margin_bottom = 432.0
+focus_mode = 0
+mouse_filter = 1
+custom_colors/font_color_disabled = Color( 0.352941, 0.352941, 0.352941, 1 )
+custom_colors/font_color_focus = Color( 0.380392, 0.380392, 0.380392, 1 )
+custom_colors/font_color = Color( 0.380392, 0.380392, 0.380392, 1 )
+custom_colors/font_color_hover = Color( 0.380392, 0.380392, 0.380392, 1 )
+custom_colors/font_color_pressed = Color( 0.380392, 0.380392, 0.380392, 1 )
+custom_fonts/font = SubResource( 58 )
+custom_styles/hover = SubResource( 60 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 61 )
+disabled = true
+enabled_focus_mode = 0
+
+[node name="Close" type="Button" parent="CanvasLayer/Popup/Powerup"]
+margin_left = 816.0
+margin_top = 24.0
+margin_right = 872.0
+margin_bottom = 80.0
+focus_mode = 0
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+enabled_focus_mode = 0
+
+[node name="Decal063" type="Sprite" parent="CanvasLayer/Popup/Powerup/Close"]
+position = Vector2( 32, 26 )
+scale = Vector2( 0.436, 0.436 )
+texture = ExtResource( 2 )
+
+[node name="Select" type="Button" parent="CanvasLayer/Popup/Powerup"]
+margin_left = 104.0
+margin_top = 440.0
+margin_right = 856.0
+margin_bottom = 496.0
+focus_mode = 0
+custom_colors/font_color_disabled = Color( 0.352941, 0.352941, 0.352941, 1 )
+custom_colors/font_color_focus = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color_hover = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color_pressed = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 24 )
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+disabled = true
+enabled_focus_mode = 0
+text = "select"
+
+[node name="Sprite2" type="Sprite" parent="CanvasLayer/Popup/Powerup"]
+position = Vector2( 132, 124 )
+scale = Vector2( 0.358, 0.358 )
+texture = ExtResource( 153 )
+
+[node name="Sprite3" type="Sprite" parent="CanvasLayer/Popup/Powerup"]
+position = Vector2( 132, 180 )
+scale = Vector2( 0.358, 0.358 )
+texture = ExtResource( 154 )
+
+[node name="Sprite4" type="Sprite" parent="CanvasLayer/Popup/Powerup"]
+position = Vector2( 132, 236 )
+scale = Vector2( 0.358, 0.358 )
+texture = ExtResource( 152 )
+
+[node name="Sprite5" type="Sprite" parent="CanvasLayer/Popup/Powerup"]
+position = Vector2( 132, 292 )
+scale = Vector2( 0.358, 0.358 )
+texture = ExtResource( 156 )
+
+[node name="Sprite6" type="Sprite" parent="CanvasLayer/Popup/Powerup"]
+position = Vector2( 132, 348 )
+scale = Vector2( 0.358, 0.358 )
+texture = ExtResource( 155 )
+
+[node name="Quicktest" type="Node2D" parent="CanvasLayer/Popup"]
+script = ExtResource( 165 )
+
+[node name="Panel" type="ColorRect" parent="CanvasLayer/Popup/Quicktest"]
+margin_left = 88.0
+margin_top = 24.0
+margin_right = 872.0
+margin_bottom = 516.0
+color = Color( 0.117647, 0.117647, 0.117647, 1 )
+
+[node name="TitlePanel" type="ColorRect" parent="CanvasLayer/Popup/Quicktest"]
+margin_left = 88.0
+margin_top = 24.0
+margin_right = 872.0
+margin_bottom = 80.0
+color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[node name="ColorPanel" type="ColorRect" parent="CanvasLayer/Popup/Quicktest"]
+margin_left = 104.0
+margin_top = 96.0
+margin_right = 856.0
+margin_bottom = 496.0
+color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[node name="Title" type="Label" parent="CanvasLayer/Popup/Quicktest"]
+margin_left = 88.0
+margin_top = 24.0
+margin_right = 872.0
+margin_bottom = 80.0
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "Running quicktest"
+align = 1
+valign = 1
+
+[node name="MeshbakerChan" type="Sprite" parent="CanvasLayer/Popup/Quicktest"]
+position = Vector2( 480, 368 )
+scale = Vector2( 0.1875, 0.1875 )
+texture = ExtResource( 166 )
+
+[node name="Hide" type="ColorRect" parent="CanvasLayer/Popup/Quicktest"]
+margin_left = 375.0
+margin_top = 253.0
+margin_right = 606.0
+margin_bottom = 311.0
+color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[node name="Text" type="Label" parent="CanvasLayer/Popup/Quicktest"]
+margin_left = 88.0
+margin_top = 80.0
+margin_right = 872.0
+margin_bottom = 400.0
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 64 )
+text = "Compressing segments..."
+align = 1
+valign = 1
+
+[node name="Timer" type="Timer" parent="CanvasLayer/Popup/Quicktest"]
+wait_time = 3.4
+one_shot = true
+
+[node name="ObstacleLoader" type="Node2D" parent="CanvasLayer/Popup" groups=["ObstacleLoader"]]
+visible = false
+script = ExtResource( 163 )
+
+[node name="Panel" type="ColorRect" parent="CanvasLayer/Popup/ObstacleLoader"]
+margin_left = 24.0
+margin_top = 24.0
+margin_right = 936.0
+margin_bottom = 516.0
+color = Color( 0.117647, 0.117647, 0.117647, 1 )
+
+[node name="TitlePanel" type="ColorRect" parent="CanvasLayer/Popup/ObstacleLoader"]
+margin_left = 24.0
+margin_top = 24.0
+margin_right = 880.0
+margin_bottom = 80.0
+color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[node name="ColorPanel" type="ColorRect" parent="CanvasLayer/Popup/ObstacleLoader"]
+margin_left = 40.0
+margin_top = 96.0
+margin_right = 920.0
+margin_bottom = 432.0
+color = Color( 0.0862745, 0.0862745, 0.0862745, 1 )
+
+[node name="Title" type="Label" parent="CanvasLayer/Popup/ObstacleLoader"]
+margin_left = 24.0
+margin_top = 24.0
+margin_right = 880.0
+margin_bottom = 80.0
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "obstacle picker"
+align = 1
+valign = 1
+
+[node name="Close" type="Button" parent="CanvasLayer/Popup/ObstacleLoader"]
+margin_left = 880.0
+margin_top = 24.0
+margin_right = 936.0
+margin_bottom = 80.0
+focus_mode = 0
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+enabled_focus_mode = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Decal063" type="Sprite" parent="CanvasLayer/Popup/ObstacleLoader/Close"]
+position = Vector2( 32, 26 )
+scale = Vector2( 0.436, 0.436 )
+texture = ExtResource( 2 )
+
+[node name="All" type="Button" parent="CanvasLayer/Popup/ObstacleLoader"]
+margin_left = 40.0
+margin_top = 440.0
+margin_right = 304.0
+margin_bottom = 496.0
+focus_mode = 0
+custom_colors/font_color_disabled = Color( 0.352941, 0.352941, 0.352941, 1 )
+custom_colors/font_color_focus = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color_hover = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color_pressed = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 63 )
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+enabled_focus_mode = 0
+text = "all"
+
+[node name="Favorite" type="Button" parent="CanvasLayer/Popup/ObstacleLoader"]
+modulate = Color( 0.478431, 0.478431, 0.478431, 1 )
+margin_left = 320.0
+margin_top = 440.0
+margin_right = 920.0
+margin_bottom = 496.0
+focus_mode = 0
+custom_colors/font_color_disabled = Color( 0.352941, 0.352941, 0.352941, 1 )
+custom_colors/font_color_focus = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color_hover = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_colors/font_color_pressed = Color( 0.709804, 0.709804, 0.709804, 1 )
+custom_fonts/font = SubResource( 63 )
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/disabled = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+enabled_focus_mode = 0
+text = "Favorite"
+
+[node name="ObstacleList" type="Node2D" parent="CanvasLayer/Popup/ObstacleLoader"]
+
+[node name="ObstacleButton" parent="CanvasLayer/Popup/ObstacleLoader/ObstacleList" instance=ExtResource( 164 )]
+position = Vector2( 164, 184 )
+
+[node name="ObstacleButton2" parent="CanvasLayer/Popup/ObstacleLoader/ObstacleList" instance=ExtResource( 164 )]
+position = Vector2( 396, 184 )
+obstacle = "sweeper"
+
+[node name="ObstacleButton3" parent="CanvasLayer/Popup/ObstacleLoader/ObstacleList" instance=ExtResource( 164 )]
+position = Vector2( 628, 184 )
+obstacle = "foldwindow"
+
+[node name="ObstacleButton4" parent="CanvasLayer/Popup/ObstacleLoader/ObstacleList" instance=ExtResource( 164 )]
+position = Vector2( 164, 344 )
+obstacle = "beatwindow"
+
+[node name="ObstacleButton5" parent="CanvasLayer/Popup/ObstacleLoader/ObstacleList" instance=ExtResource( 164 )]
+position = Vector2( 396, 344 )
+obstacle = "rotor"
+
+[node name="ObstacleButton6" parent="CanvasLayer/Popup/ObstacleLoader/ObstacleList" instance=ExtResource( 164 )]
+position = Vector2( 628, 344 )
+obstacle = "revolver"
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/Hide = SubResource( 28 )
+anims/RESET = SubResource( 27 )
+anims/Show = SubResource( 26 )
+
+[connection signal="button_down" from="CanvasLayer/Popup/OpenFile/Close" to="CanvasLayer/Popup/OpenFile" method="_on_Close_button_down"]
+[connection signal="item_selected" from="CanvasLayer/Popup/OpenFile/FileList" to="CanvasLayer/Popup/OpenFile" method="_on_FileList_item_selected"]
+[connection signal="button_down" from="CanvasLayer/Popup/OpenFile/Open" to="CanvasLayer/Popup/OpenFile" method="_on_Open_button_down"]
+[connection signal="button_up" from="CanvasLayer/Popup/OpenFile/Open" to="CanvasLayer/Popup/OpenFile" method="_on_Open_button_up"]
+[connection signal="button_down" from="CanvasLayer/Popup/OpenFile/OpenFolder" to="CanvasLayer/Popup/OpenFile" method="_on_OpenFolder_button_down"]
+[connection signal="button_up" from="CanvasLayer/Popup/OpenFile/OpenFolder" to="CanvasLayer/Popup/OpenFile" method="_on_OpenFolder_button_up"]
+[connection signal="button_down" from="CanvasLayer/Popup/NewWarning/Close" to="CanvasLayer/Popup/NewWarning" method="_on_Close_button_down"]
+[connection signal="button_up" from="CanvasLayer/Popup/NewWarning/Close" to="CanvasLayer/Popup/NewWarning" method="_on_Close_button_up"]
+[connection signal="button_down" from="CanvasLayer/Popup/NewWarning/Cancel" to="CanvasLayer/Popup/NewWarning" method="_on_Cancel_button_down"]
+[connection signal="button_up" from="CanvasLayer/Popup/NewWarning/Cancel" to="CanvasLayer/Popup/NewWarning" method="_on_Cancel_button_up"]
+[connection signal="button_down" from="CanvasLayer/Popup/NewWarning/Create" to="CanvasLayer/Popup/NewWarning" method="_on_Create_button_down"]
+[connection signal="button_up" from="CanvasLayer/Popup/NewWarning/Create" to="CanvasLayer/Popup/NewWarning" method="_on_Create_button_up"]
+[connection signal="button_down" from="CanvasLayer/Popup/SegmentError/Close" to="CanvasLayer/Popup/SegmentError" method="_on_Close_button_down"]
+[connection signal="button_up" from="CanvasLayer/Popup/SegmentError/Close" to="CanvasLayer/Popup/SegmentError" method="_on_Close_button_up"]
+[connection signal="button_down" from="CanvasLayer/Popup/SegmentError/Continue" to="CanvasLayer/Popup/SegmentError" method="_on_Continue_button_down"]
+[connection signal="button_up" from="CanvasLayer/Popup/SegmentError/Continue" to="CanvasLayer/Popup/SegmentError" method="_on_Continue_button_up"]
+[connection signal="button_down" from="CanvasLayer/Popup/SegmentError/Copy" to="CanvasLayer/Popup/SegmentError" method="_on_Copy_button_down"]
+[connection signal="button_up" from="CanvasLayer/Popup/SegmentError/Copy" to="CanvasLayer/Popup/SegmentError" method="_on_Copy_button_up"]
+[connection signal="button_down" from="CanvasLayer/Popup/SaveFile/Close" to="CanvasLayer/Popup/SaveFile" method="_on_Close_button_down"]
+[connection signal="button_up" from="CanvasLayer/Popup/SaveFile/Close" to="CanvasLayer/Popup/SaveFile" method="_on_Close_button_up"]
+[connection signal="item_selected" from="CanvasLayer/Popup/SaveFile/FileList" to="CanvasLayer/Popup/SaveFile" method="_on_FileList_item_selected"]
+[connection signal="button_down" from="CanvasLayer/Popup/SaveFile/Save" to="CanvasLayer/Popup/SaveFile" method="_on_Save_button_down"]
+[connection signal="button_up" from="CanvasLayer/Popup/SaveFile/Save" to="CanvasLayer/Popup/SaveFile" method="_on_Save_button_up"]
+[connection signal="text_changed" from="CanvasLayer/Popup/SaveFile/FileName" to="CanvasLayer/Popup/SaveFile" method="_on_FileName_text_changed"]
+[connection signal="text_changed" from="CanvasLayer/Popup/SegmentOption/Segsizex" to="CanvasLayer/Popup/SegmentOption" method="_on_Segsizex_text_changed"]
+[connection signal="text_changed" from="CanvasLayer/Popup/SegmentOption/Segsizey" to="CanvasLayer/Popup/SegmentOption" method="_on_Segsizey_text_changed"]
+[connection signal="text_changed" from="CanvasLayer/Popup/SegmentOption/Segsizez" to="CanvasLayer/Popup/SegmentOption" method="_on_Segsizez_text_changed"]
+[connection signal="toggled" from="CanvasLayer/Popup/SegmentOption/SegsizeAuto" to="CanvasLayer/Popup/SegmentOption" method="_on_SegsizeAuto_toggled"]
+[connection signal="button_down" from="CanvasLayer/Popup/SegmentOption/Continue" to="CanvasLayer/Popup/SegmentOption" method="_on_Continue_button_down"]
+[connection signal="button_up" from="CanvasLayer/Popup/SegmentOption/Continue" to="CanvasLayer/Popup/SegmentOption" method="_on_Continue_button_up"]
+[connection signal="button_down" from="CanvasLayer/Popup/About/Close" to="CanvasLayer/Popup/About" method="_on_Close_button_down"]
+[connection signal="button_up" from="CanvasLayer/Popup/About/Close" to="CanvasLayer/Popup/About" method="_on_Close_button_up"]
+[connection signal="button_down" from="CanvasLayer/Popup/About/Continue" to="CanvasLayer/Popup/About" method="_on_Continue_button_down"]
+[connection signal="button_up" from="CanvasLayer/Popup/About/Continue" to="CanvasLayer/Popup/About" method="_on_Continue_button_up"]
+[connection signal="button_down" from="CanvasLayer/Popup/About/Canvas" to="CanvasLayer/Popup/About" method="_on_Canvas_button_down"]
+[connection signal="button_down" from="CanvasLayer/Popup/ComingSoon/Close" to="CanvasLayer/Popup/ComingSoon" method="_on_Close_button_down"]
+[connection signal="button_up" from="CanvasLayer/Popup/ComingSoon/Close" to="CanvasLayer/Popup/ComingSoon" method="_on_Close_button_up"]
+[connection signal="button_down" from="CanvasLayer/Popup/BoxTemplate/Select" to="CanvasLayer/Popup/BoxTemplate" method="_on_Select_button_down"]
+[connection signal="button_up" from="CanvasLayer/Popup/BoxTemplate/Select" to="CanvasLayer/Popup/BoxTemplate" method="_on_Select_button_up"]
+[connection signal="button_down" from="CanvasLayer/Popup/BoxTemplate/Close" to="CanvasLayer/Popup/BoxTemplate" method="_on_Close_button_down"]
+[connection signal="button_up" from="CanvasLayer/Popup/BoxTemplate/Close" to="CanvasLayer/Popup/BoxTemplate" method="_on_Close_button_up"]
+[connection signal="item_selected" from="CanvasLayer/Popup/BoxTemplate/FileList" to="CanvasLayer/Popup/BoxTemplate" method="_on_FileList_item_selected"]
+[connection signal="button_down" from="CanvasLayer/Popup/CrystalTemplate/Select" to="CanvasLayer/Popup/CrystalTemplate" method="_on_Select_button_down"]
+[connection signal="button_up" from="CanvasLayer/Popup/CrystalTemplate/Select" to="CanvasLayer/Popup/CrystalTemplate" method="_on_Select_button_up"]
+[connection signal="button_down" from="CanvasLayer/Popup/CrystalTemplate/Close" to="CanvasLayer/Popup/CrystalTemplate" method="_on_Close_button_down"]
+[connection signal="button_up" from="CanvasLayer/Popup/CrystalTemplate/Close" to="CanvasLayer/Popup/CrystalTemplate" method="_on_Close_button_up"]
+[connection signal="item_selected" from="CanvasLayer/Popup/CrystalTemplate/FileList" to="CanvasLayer/Popup/CrystalTemplate" method="_on_FileList_item_selected"]
+[connection signal="button_down" from="CanvasLayer/Popup/GlassTemplate/Select" to="CanvasLayer/Popup/GlassTemplate" method="_on_Select_button_down"]
+[connection signal="button_up" from="CanvasLayer/Popup/GlassTemplate/Select" to="CanvasLayer/Popup/GlassTemplate" method="_on_Select_button_up"]
+[connection signal="button_down" from="CanvasLayer/Popup/GlassTemplate/Close" to="CanvasLayer/Popup/GlassTemplate" method="_on_Close_button_down"]
+[connection signal="button_up" from="CanvasLayer/Popup/GlassTemplate/Close" to="CanvasLayer/Popup/GlassTemplate" method="_on_Close_button_up"]
+[connection signal="item_selected" from="CanvasLayer/Popup/GlassTemplate/FileList" to="CanvasLayer/Popup/GlassTemplate" method="_on_FileList_item_selected"]
+[connection signal="button_down" from="CanvasLayer/Popup/TileLoader/Select" to="CanvasLayer/Popup/TileLoader" method="_on_Select_button_down"]
+[connection signal="button_up" from="CanvasLayer/Popup/TileLoader/Select" to="CanvasLayer/Popup/TileLoader" method="_on_Select_button_up"]
+[connection signal="button_down" from="CanvasLayer/Popup/TileLoader/Close" to="CanvasLayer/Popup/TileLoader" method="_on_Close_button_down"]
+[connection signal="button_up" from="CanvasLayer/Popup/TileLoader/Close" to="CanvasLayer/Popup/TileLoader" method="_on_Close_button_up"]
+[connection signal="button_down" from="CanvasLayer/Popup/DecalLoader/Select" to="CanvasLayer/Popup/DecalLoader" method="_on_Select_button_down"]
+[connection signal="button_up" from="CanvasLayer/Popup/DecalLoader/Select" to="CanvasLayer/Popup/DecalLoader" method="_on_Select_button_up"]
+[connection signal="button_down" from="CanvasLayer/Popup/DecalLoader/Close" to="CanvasLayer/Popup/DecalLoader" method="_on_Close_button_down"]
+[connection signal="button_up" from="CanvasLayer/Popup/DecalLoader/Close" to="CanvasLayer/Popup/DecalLoader" method="_on_Close_button_up"]
+[connection signal="button_down" from="CanvasLayer/Popup/ColorPicker/Select" to="CanvasLayer/Popup/ColorPicker" method="_on_Select_button_down"]
+[connection signal="button_up" from="CanvasLayer/Popup/ColorPicker/Select" to="CanvasLayer/Popup/ColorPicker" method="_on_Select_button_up"]
+[connection signal="button_down" from="CanvasLayer/Popup/ColorPicker/Close" to="CanvasLayer/Popup/ColorPicker" method="_on_Close_button_down"]
+[connection signal="button_up" from="CanvasLayer/Popup/ColorPicker/Close" to="CanvasLayer/Popup/ColorPicker" method="_on_Close_button_up"]
+[connection signal="value_changed" from="CanvasLayer/Popup/ColorPicker/Slider/R" to="." method="_on_R_value_changed"]
+[connection signal="value_changed" from="CanvasLayer/Popup/ColorPicker/Slider/G" to="." method="_on_G_value_changed"]
+[connection signal="value_changed" from="CanvasLayer/Popup/ColorPicker/Slider/B" to="." method="_on_B_value_changed"]
+[connection signal="button_down" from="CanvasLayer/Popup/ColorPicker/Pallet/Pallet1" to="CanvasLayer/Popup/ColorPicker" method="_on_Pallet1_button_down"]
+[connection signal="button_down" from="CanvasLayer/Popup/ColorPicker/Pallet/Pallet2" to="CanvasLayer/Popup/ColorPicker" method="_on_Pallet2_button_down"]
+[connection signal="button_down" from="CanvasLayer/Popup/ColorPicker/Pallet/Pallet3" to="CanvasLayer/Popup/ColorPicker" method="_on_Pallet3_button_down"]
+[connection signal="button_down" from="CanvasLayer/Popup/ColorPicker/Pallet/Pallet4" to="CanvasLayer/Popup/ColorPicker" method="_on_Pallet4_button_down"]
+[connection signal="button_down" from="CanvasLayer/Popup/ColorPicker/Pallet/Pallet5" to="CanvasLayer/Popup/ColorPicker" method="_on_Pallet5_button_down"]
+[connection signal="button_down" from="CanvasLayer/Popup/ColorPicker/Pallet/Pallet6" to="CanvasLayer/Popup/ColorPicker" method="_on_Pallet6_button_down"]
+[connection signal="button_down" from="CanvasLayer/Popup/ColorPicker/Pallet/Pallet7" to="CanvasLayer/Popup/ColorPicker" method="_on_Pallet7_button_down"]
+[connection signal="button_down" from="CanvasLayer/Popup/ColorPicker/Pallet/Clear" to="CanvasLayer/Popup/ColorPicker" method="_on_Clear_button_down"]
+[connection signal="button_up" from="CanvasLayer/Popup/ColorPicker/Pallet/Clear" to="CanvasLayer/Popup/ColorPicker" method="_on_Clear_button_up"]
+[connection signal="text_changed" from="CanvasLayer/Popup/ColorPicker/LineR" to="CanvasLayer/Popup/ColorPicker" method="_on_LineR_text_changed"]
+[connection signal="text_changed" from="CanvasLayer/Popup/ColorPicker/LineG" to="CanvasLayer/Popup/ColorPicker" method="_on_LineG_text_changed"]
+[connection signal="text_changed" from="CanvasLayer/Popup/ColorPicker/LineB" to="CanvasLayer/Popup/ColorPicker" method="_on_LineB_text_changed"]
+[connection signal="button_down" from="CanvasLayer/Popup/Powerup/Ballfrenzy" to="CanvasLayer/Popup/Powerup" method="_on_Ballfrenzy_button_down"]
+[connection signal="button_up" from="CanvasLayer/Popup/Powerup/Ballfrenzy" to="CanvasLayer/Popup/Powerup" method="_on_Ballfrenzy_button_up"]
+[connection signal="button_down" from="CanvasLayer/Popup/Powerup/Nitroballs" to="CanvasLayer/Popup/Powerup" method="_on_Nitroballs_button_down"]
+[connection signal="button_up" from="CanvasLayer/Popup/Powerup/Nitroballs" to="CanvasLayer/Popup/Powerup" method="_on_Nitroballs_button_up"]
+[connection signal="button_down" from="CanvasLayer/Popup/Powerup/Slowmotion" to="CanvasLayer/Popup/Powerup" method="_on_Slowmotion_button_down"]
+[connection signal="button_up" from="CanvasLayer/Popup/Powerup/Slowmotion" to="CanvasLayer/Popup/Powerup" method="_on_Slowmotion_button_up"]
+[connection signal="button_down" from="CanvasLayer/Popup/Powerup/Extraball" to="CanvasLayer/Popup/Powerup" method="_on_Extraball_button_down"]
+[connection signal="button_up" from="CanvasLayer/Popup/Powerup/Extraball" to="CanvasLayer/Popup/Powerup" method="_on_Extraball_button_up"]
+[connection signal="button_down" from="CanvasLayer/Popup/Powerup/Multiball" to="CanvasLayer/Popup/Powerup" method="_on_Multiball_button_down"]
+[connection signal="button_up" from="CanvasLayer/Popup/Powerup/Multiball" to="CanvasLayer/Popup/Powerup" method="_on_Multiball_button_up"]
+[connection signal="button_down" from="CanvasLayer/Popup/Powerup/Close" to="CanvasLayer/Popup/Powerup" method="_on_Close_button_down"]
+[connection signal="button_up" from="CanvasLayer/Popup/Powerup/Close" to="CanvasLayer/Popup/Powerup" method="_on_Close_button_up"]
+[connection signal="button_down" from="CanvasLayer/Popup/Powerup/Select" to="CanvasLayer/Popup/Powerup" method="_on_Select_button_down"]
+[connection signal="button_up" from="CanvasLayer/Popup/Powerup/Select" to="CanvasLayer/Popup/Powerup" method="_on_Select_button_up"]
+[connection signal="timeout" from="CanvasLayer/Popup/Quicktest/Timer" to="CanvasLayer/Popup/Quicktest" method="_on_Timer_timeout"]
+[connection signal="button_down" from="CanvasLayer/Popup/ObstacleLoader/Close" to="CanvasLayer/Popup/ObstacleLoader" method="_on_Close_button_down"]
+[connection signal="button_up" from="CanvasLayer/Popup/ObstacleLoader/Close" to="CanvasLayer/Popup/ObstacleLoader" method="_on_Close_button_up"]
+[connection signal="button_down" from="CanvasLayer/Popup/ObstacleLoader/All" to="CanvasLayer/Popup/ObstacleLoader" method="_on_All_button_down"]
+[connection signal="button_up" from="CanvasLayer/Popup/ObstacleLoader/All" to="CanvasLayer/Popup/ObstacleLoader" method="_on_All_button_up"]
+[connection signal="button_down" from="CanvasLayer/Popup/ObstacleLoader/Favorite" to="CanvasLayer/Popup/ObstacleLoader" method="_on_Favorite_button_down"]
+[connection signal="button_up" from="CanvasLayer/Popup/ObstacleLoader/Favorite" to="CanvasLayer/Popup/ObstacleLoader" method="_on_Favorite_button_up"]

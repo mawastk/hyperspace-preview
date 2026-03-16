@@ -1,0 +1,99 @@
+{
+	"none" : {
+		"color" : [1.0, 1.0, 1.0],
+		"system" : true
+	},
+	
+	
+	
+	"split_st" : {
+		"color" : [0, 0.5, 1]
+	},
+	
+	
+	
+	"basic_st" : {
+		"color" : [0.4, 0.8, 1]
+	},
+	"basic_st2" : {
+		"color" : [0.3, 0.82, 0.95]
+	},
+	
+	
+	
+	"holo_st" : {
+		"color" : [0, 0.95, 1]
+	},
+	
+	
+	
+	"cave_st" : {
+		"color" : [0.5, 0.6, 1]
+	},
+	
+	
+	
+	"ocean_st" : {
+		"color" : [0, 0.7, 1]
+	},
+	
+	
+	
+	"canyon_st" : {
+		"color" : [0.4, 0.8, 1]
+	},
+	
+	
+	
+	"river_st" : {
+		"color" : [0, 0.8, 0.85]
+	},
+	
+	
+	
+	"cave2_st" : {
+		"color" : [0.4, 0.8, 1]
+	},
+	
+	
+	
+	"night_st" : {
+		"color" : [0.5, 0.84, 1]
+	},
+	
+	
+	
+	"brownie_st" : {
+		"color" : [0, 0.85, 1]
+	},
+	
+	
+	
+	"phosphor_st" : {
+		"color" : [0, 0.75, 0.9]
+	},
+	
+	
+	
+	"hyper_st" : {
+		"color" : [0, 0.75, 0.9]
+	},
+	
+	
+	
+	"city_st" : {
+		"color" : [0, 0.75, 0.9]
+	},
+	
+	
+	
+	"endless_st" : {
+		"color" : [0, 0.75, 0.9]
+	},
+	
+	
+	
+	"zen_st" : {
+		"color" : [0, 0.75, 0.9]
+	}
+}

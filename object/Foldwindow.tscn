@@ -1,0 +1,62 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://image/gfx/glassnormal3.png" type="Texture" id=1]
+[ext_resource path="res://object/Foldwindow.gd" type="Script" id=2]
+[ext_resource path="res://image/editor/check_size.png" type="Texture" id=3]
+
+[sub_resource type="CubeMesh" id=2]
+
+[sub_resource type="SpatialMaterial" id=3]
+albedo_color = Color( 0.619608, 0.682353, 0.721569, 1 )
+albedo_texture = ExtResource( 1 )
+uv1_scale = Vector3( 1.5, 0.9, 0.04 )
+uv1_triplanar = true
+
+[sub_resource type="BoxShape" id=6]
+
+[sub_resource type="SpatialMaterial" id=4]
+flags_transparent = true
+albedo_color = Color( 1, 1, 1, 0.670588 )
+albedo_texture = ExtResource( 3 )
+uv1_offset = Vector3( 2.5, 0.06, 0.06 )
+
+[sub_resource type="CubeMesh" id=5]
+
+[node name="Foldwindow" type="Spatial" groups=["Obstacle"]]
+script = ExtResource( 2 )
+
+[node name="Mesh" type="Spatial" parent="."]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, 0 )
+
+[node name="Metal" type="MeshInstance" parent="Mesh"]
+transform = Transform( 1.5, 0, 0, 0, 0.1, 0, 0, 0, 0.05, 0, 0, 0 )
+mesh = SubResource( 2 )
+skeleton = NodePath("../../..")
+
+[node name="Glass" type="MeshInstance" parent="Mesh"]
+transform = Transform( 1.5, 0, 0, 0, 0.9, 0, 0, 0, 0.04, 0, 1, 0 )
+material_override = SubResource( 3 )
+mesh = SubResource( 2 )
+skeleton = NodePath("../../..")
+
+[node name="Collision" type="StaticBody" parent="Mesh/Glass"]
+
+[node name="CollisionShape" type="CollisionShape" parent="Mesh/Glass/Collision"]
+visible = false
+shape = SubResource( 6 )
+
+[node name="Check" type="Spatial" parent="."]
+visible = false
+
+[node name="CheckMove" type="MeshInstance" parent="Check"]
+transform = Transform( 1.5, 0, 0, 0, 0.9, 0, 0, 0, 0.04, 0, 1, 0 )
+material_override = SubResource( 4 )
+mesh = SubResource( 5 )
+skeleton = NodePath("../../..")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.4
+one_shot = true
+
+[connection signal="input_event" from="Mesh/Glass/Collision" to="." method="_on_Collision_input_event"]
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

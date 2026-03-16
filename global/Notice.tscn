@@ -1,0 +1,154 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://font/Smash_Hit.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://global/Notice.gd" type="Script" id=2]
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0.788235, 0.52549, 1, 1 )
+
+[sub_resource type="StyleBoxEmpty" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+size = 35
+extra_spacing_top = 15
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 32
+extra_spacing_top = 11
+font_data = ExtResource( 1 )
+
+[sub_resource type="Animation" id=6]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("CanvasLayer/Notice:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 440, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("CanvasLayer/Notice:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("CanvasLayer/Notice/Timer:value")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 100.0 ]
+}
+
+[sub_resource type="Animation" id=5]
+resource_name = "Show"
+length = 3.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("CanvasLayer/Notice:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.4, 3, 3.5 ),
+"transitions": PoolRealArray( 0.25, 0.25, 3.36359, 0.25 ),
+"update": 0,
+"values": [ Vector2( 440, 0 ), Vector2( 0, 0 ), Vector2( 0, 0 ), Vector2( 440, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("CanvasLayer/Notice:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.4, 3, 3.5 ),
+"transitions": PoolRealArray( 0.25, 0.25, 3.36359, 0.25 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("CanvasLayer/Notice/Timer:value")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 100.0, 0.0 ]
+}
+
+[node name="Notice" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = 30
+
+[node name="Notice" type="Node2D" parent="CanvasLayer"]
+position = Vector2( 440, 0 )
+
+[node name="BG" type="ColorRect" parent="CanvasLayer/Notice"]
+margin_left = 544.0
+margin_right = 960.0
+margin_bottom = 160.0
+color = Color( 0.0941176, 0.0941176, 0.0941176, 1 )
+
+[node name="BG2" type="ColorRect" parent="CanvasLayer/Notice"]
+margin_left = 544.0
+margin_right = 960.0
+margin_bottom = 48.0
+color = Color( 0.0745098, 0.0745098, 0.0745098, 1 )
+
+[node name="Timer" type="ProgressBar" parent="CanvasLayer/Notice"]
+margin_left = 544.0
+margin_right = 960.0
+margin_bottom = 5.0
+custom_styles/fg = SubResource( 3 )
+custom_styles/bg = SubResource( 4 )
+value = 100.0
+percent_visible = false
+
+[node name="Title" type="Label" parent="CanvasLayer/Notice"]
+margin_left = 544.0
+margin_right = 953.0
+margin_bottom = 48.0
+custom_colors/font_color = Color( 0.835294, 0.835294, 0.835294, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "title"
+align = 2
+valign = 1
+
+[node name="Text" type="Label" parent="CanvasLayer/Notice"]
+modulate = Color( 0.713726, 0.713726, 0.713726, 1 )
+margin_left = 544.0
+margin_top = 48.0
+margin_right = 953.0
+margin_bottom = 160.0
+rect_pivot_offset = Vector2( 1189, 593 )
+custom_fonts/font = SubResource( 2 )
+text = "text"
+align = 1
+valign = 1
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/RESET = SubResource( 6 )
+anims/Show = SubResource( 5 )

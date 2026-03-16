@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/scoretop.obj-dcfa8a36ffda8dbd433b3d4e08c993b2.mesh"
+
+[deps]
+
+files=[ "res://.import/scoretop.obj-dcfa8a36ffda8dbd433b3d4e08c993b2.mesh" ]
+
+source_file="res://model/object/scoretop.obj"
+dest_files=[ "res://.import/scoretop.obj-dcfa8a36ffda8dbd433b3d4e08c993b2.mesh", "res://.import/scoretop.obj-dcfa8a36ffda8dbd433b3d4e08c993b2.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

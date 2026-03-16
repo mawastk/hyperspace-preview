@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://image/editor/check.png" type="Texture" id=1]
+
+[sub_resource type="SpatialMaterial" id=6]
+render_priority = 1
+flags_transparent = true
+albedo_texture = ExtResource( 1 )
+uv1_offset = Vector3( 2.5, 0.06, 0.06 )
+
+[sub_resource type="CubeMesh" id=3]
+
+[node name="RotorGlass" type="MeshInstance"]
+transform = Transform( 0.5, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, 0, 0 )
+material_override = SubResource( 6 )
+mesh = SubResource( 3 )
+skeleton = NodePath("../..")

@@ -1,0 +1,96 @@
+[gd_scene load_steps=21 format=2]
+
+[ext_resource path="res://audio/sound/Change.ogg" type="AudioStream" id=1]
+[ext_resource path="res://audio/sound/Show.ogg" type="AudioStream" id=2]
+[ext_resource path="res://audio/sound/Select.ogg" type="AudioStream" id=3]
+[ext_resource path="res://audio/sound/Transition.ogg" type="AudioStream" id=4]
+[ext_resource path="res://audio/sound/Close.ogg" type="AudioStream" id=5]
+[ext_resource path="res://audio/sound/Dot.ogg" type="AudioStream" id=6]
+[ext_resource path="res://audio/sound/Powerup.ogg" type="AudioStream" id=7]
+[ext_resource path="res://global/Sound.gd" type="Script" id=8]
+[ext_resource path="res://audio/sound/Multiple.ogg" type="AudioStream" id=9]
+[ext_resource path="res://audio/sound/Single.ogg" type="AudioStream" id=10]
+[ext_resource path="res://audio/sound/Laser.ogg" type="AudioStream" id=11]
+[ext_resource path="res://audio/sound/Homing.ogg" type="AudioStream" id=12]
+[ext_resource path="res://audio/sound/ShowOld.ogg" type="AudioStream" id=13]
+[ext_resource path="res://audio/sound/CloseOld.ogg" type="AudioStream" id=14]
+[ext_resource path="res://audio/sound/HideMenu.ogg" type="AudioStream" id=15]
+[ext_resource path="res://audio/sound/Crystal_3.ogg" type="AudioStream" id=16]
+[ext_resource path="res://audio/sound/Crystal_4.ogg" type="AudioStream" id=17]
+[ext_resource path="res://audio/sound/Crystal_1.ogg" type="AudioStream" id=18]
+[ext_resource path="res://audio/sound/Crystal_2.ogg" type="AudioStream" id=19]
+[ext_resource path="res://audio/sound/Rank.ogg" type="AudioStream" id=20]
+
+[node name="Sound" type="Node2D"]
+script = ExtResource( 8 )
+
+[node name="Change" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 1 )
+volume_db = 9.0
+
+[node name="Close" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 5 )
+volume_db = 3.0
+
+[node name="CloseOld" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 14 )
+volume_db = -4.0
+
+[node name="Dot" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 6 )
+volume_db = 7.0
+
+[node name="Powerup" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 7 )
+volume_db = 3.0
+
+[node name="Select" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+volume_db = 3.0
+
+[node name="Show" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 2 )
+volume_db = 9.0
+
+[node name="ShowOld" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 13 )
+volume_db = -4.0
+
+[node name="Transition" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 4 )
+volume_db = -3.0
+
+[node name="Multiple" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 9 )
+volume_db = 3.0
+
+[node name="Single" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 10 )
+volume_db = 3.0
+
+[node name="Laser" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 11 )
+pitch_scale = 1.5
+
+[node name="Homing" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 12 )
+volume_db = -5.0
+
+[node name="HideMenu" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 15 )
+volume_db = -4.0
+
+[node name="Crystal_1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 18 )
+
+[node name="Crystal_2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 19 )
+
+[node name="Crystal_3" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 16 )
+
+[node name="Crystal_4" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 17 )
+
+[node name="Rank" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 20 )

@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/scorestar.obj-30b7915b8ac4bbf797bd9f2eee0ccc5a.mesh"
+
+[deps]
+
+files=[ "res://.import/scorestar.obj-30b7915b8ac4bbf797bd9f2eee0ccc5a.mesh" ]
+
+source_file="res://model/object/scorestar.obj"
+dest_files=[ "res://.import/scorestar.obj-30b7915b8ac4bbf797bd9f2eee0ccc5a.mesh", "res://.import/scorestar.obj-30b7915b8ac4bbf797bd9f2eee0ccc5a.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

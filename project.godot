@@ -1,0 +1,140 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Node",
+"class": "Error",
+"language": "GDScript",
+"path": "res://script/Error.gd"
+}, {
+"base": "Node",
+"class": "SegmentCompressor",
+"language": "GDScript",
+"path": "res://script/SegmentCompressor.gd"
+}, {
+"base": "Node",
+"class": "SegmentGenerator",
+"language": "GDScript",
+"path": "res://script/SegmentGenerator.gd"
+}, {
+"base": "Node",
+"class": "SegmentLoader",
+"language": "GDScript",
+"path": "res://script/SegmentLoader.gd"
+}, {
+"base": "Node",
+"class": "SegmentLoaderV2",
+"language": "GDScript",
+"path": "res://script/SegmentLoader_v2.gd"
+} ]
+_global_script_class_icons={
+"Error": "",
+"SegmentCompressor": "",
+"SegmentGenerator": "",
+"SegmentLoader": "",
+"SegmentLoaderV2": ""
+}
+
+[application]
+
+config/name="Hyperspace"
+run/main_scene="res://Main.tscn"
+config/use_custom_user_dir=true
+config/custom_user_dir_name="Hyperspace"
+boot_splash/show_image=false
+boot_splash/image="res://image/build/AndroidSplash.png"
+boot_splash/fullsize=false
+boot_splash/use_filter=false
+boot_splash/bg_color=Color( 0, 0, 0, 1 )
+config/icon="res://image/build/icon_3.png"
+config/quit_on_go_back=false
+
+[autoload]
+
+Sound="*res://global/Sound.tscn"
+TemplateManager="*res://script/TemplateManager.gd"
+SaveBuffer="*res://script/SaveBuffer.gd"
+HyperFile="*res://script/HyperFile.gd"
+GlobalPopup="*res://global/Popup.tscn"
+Notice="*res://global/Notice.tscn"
+Syntax="*res://script/Syntax.gd"
+MouseChecker="*res://script/MouseChecker.gd"
+ObjectGenerator="*res://script/ObjectGenerator.gd"
+SceneAnimate="*res://global/SceneAnimate.tscn"
+ImageLoader="*res://script/ImageLoader.gd"
+
+[display]
+
+window/size/width=960
+window/size/height=540
+window/stretch/mode="2d"
+window/stretch/aspect="keep"
+
+[editor_plugins]
+
+enabled=PoolStringArray(  )
+
+[gui]
+
+common/drop_mouse_on_gui_input_disabled=true
+
+[input]
+
+Up={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":87,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+Down={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":83,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+Left={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":65,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+Right={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":68,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+Space={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":32,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+Fall={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":67,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777237,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+Debug={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777250,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+quality/driver/driver_name="GLES2"
+vram_compression/import_etc=true
+vram_compression/import_etc2=false
+environment/default_environment="res://default_env.tres"

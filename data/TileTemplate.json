@@ -1,0 +1,475 @@
+{
+	"none" : {
+		"modulate" : [1, 1, 1],
+		"texture" : [0],
+		"reflection" : false,
+		"unshade" : false,
+		"system" : true
+	},
+	
+	
+	
+	"split" : {
+		"modulate" : [0.2, 0.2, 0.2],
+		"texture" : [55],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	
+	
+	
+	"basic_start" : {
+		"modulate" : [0.8, 0.91, 0.96, 0.8, 0.91, 0.96, 0.2, 0.2, 0.2],
+		"texture" : [19],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	"basic_start2" : {
+		"modulate" : [0.2, 0.2, 0.2],
+		"texture" : [19],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	"basic" : {
+		"modulate" : [0.8, 0.91, 0.96],
+		"texture" : [19],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	"basic_dark" : {
+		"modulate" : [0.7, 0.81, 0.86],
+		"texture" : [19],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	"basic_dark_altar" : {
+		"modulate" : [0.7, 0.81, 0.86, 1, 1, 1, 0.7, 0.81, 0.86],
+		"texture" : [19],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	"basic_darker" : {
+		"modulate" : [0.4, 0.65, 0.81],
+		"texture" : [19],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	"basic_darker_altar" : {
+		"modulate" : [0.4, 0.65, 0.81, 1, 1, 1, 0.4, 0.65, 0.81],
+		"texture" : [19],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	"basic_darker_end" : {
+		"modulate" : [1, 1.3, 1.4, 1, 1.3, 1.4, 0.3, 0.55, 0.66],
+		"texture" : [19],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	"basic_darker_end2" : {
+		"modulate" : [1, 1.3, 1.4],
+		"texture" : [19],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	"basic_score" : {
+		"modulate" : [0.3, 0.55, 0.91],
+		"texture" : [47],
+		"reflection" : true,
+		"unshade" : false,
+	},
+	"basic_score_end" : {
+		"modulate" : [1, 1, 1],
+		"texture" : [0],
+		"reflection" : true,
+		"unshade" : false,
+	},
+	
+	
+	
+	"night" : {
+		"modulate" : [0.55, 0.65, 0.75],
+		"texture" : [41],
+		"reflection" : true,
+		"unshade" : false,
+	},
+	
+	
+	
+	"holo_wall_left" : {
+		"modulate" : [0, 0.9, 1],
+		"texture" : [40, 36, 40],
+		"rotation" : [0, 2, 0],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	"holo_wall_right" : {
+		"modulate" : [0, 0.9, 1],
+		"texture" : [40, 35, 40],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	"holo_floor" : {
+		"modulate" : [0, 0.8, 0.9],
+		"texture" : [30, 40, 30],
+		"reflection" : true,
+		"unshade" : false,
+	},
+	"holo_floor2" : {
+		"modulate" : [0, 0.43, 0.5, 0.2, 0.9, 1, 0, 0.53, 0.5],
+		"texture" : [30, 40, 30],
+		"rotation" : [2, 0, 2],
+		"size" : [1],
+		"reflection" : true,
+		"unshade" : false,
+	},
+	"holo_floor_light" : {
+		"modulate" : [0, 0.7, 0.8, 1, 1.4, 1.5, 0, 0.7, 0.8],
+		"texture" : [30, 22, 30],
+		"rotation" : [2, 0, 2],
+		"size" : [1],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	"holo_right" : {
+		"modulate" : [1, 1.3, 1.35, 0, 0.8, 0.9, 0, 0.8, 0.9],
+		"texture" : [22, 30, 30],
+		"rotation" : [0, 1, 1],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	"holo_left" : {
+		"modulate" : [1.2, 1.6, 1.7, 0, 0.8, 0.9, 0, 0.8, 0.9],
+		"texture" : [22, 30, 30],
+		"rotation" : [0, 3, 3],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	"holo_front" : {
+		"modulate" : [0, 0.7, 0.8, 0, 0.7, 0.8, 1, 1.3, 1.35],
+		"texture" : [30, 30, 22],
+		"rotation" : [3, 2, 0],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	"holo_top" : {
+		"modulate" : [0, 0.8, 0.9, 1.1, 1.6, 1.7, 0, 0.8, 0.9],
+		"texture" : [30, 22, 30],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	"holo_bottom" : {
+		"modulate" : [0, 0.8, 0.9, 1, 1.4, 1.5, 0, 0.8, 0.9],
+		"texture" : [30, 22, 30],
+		"rotation" : [2, 0, 2],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	"holo_score" : {
+		"modulate" : [0, 0.8, 0.9],
+		"texture" : [47],
+		"reflection" : true,
+		"unshade" : false,
+	},
+	"holo_score_end" : {
+		"modulate" : [1, 1, 1],
+		"texture" : [0],
+		"reflection" : true,
+		"unshade" : false,
+	},
+	
+	
+	
+	"cave" : {
+		"modulate" : [0.41, 0.35, 0.45],
+		"texture" : [25],
+		"size" : [2, 2, 2],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	"cave_laser" : {
+		"modulate" : [1.4, 1, 1.3, 1.4, 1, 1.3, 0.41, 0.35, 0.45],
+		"texture" : [0, 0, 25],
+		"size" : [2, 2, 2],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	
+	
+	
+	"canyon" : {
+		"modulate" : [0.7, 0.3, 0.25],
+		"texture" : [25],
+		"size" : [2, 2, 2],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	
+	
+	
+	"ocean" : {
+		"modulate" : [0, 0.65, 0.8],
+		"texture" : [27],
+		"size" : [1, 1, 1],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	"ocean2" : {
+		"modulate" :[0, 0.65, 0.8, 0, 0.35, 0.5, 0, 0.65, 0.8],
+		"texture" : [27],
+		"size" : [1, 1, 1],
+		"reflection" : true,
+		"unshade" : false,
+	},
+	"ocean3" : {
+		"modulate" : [0, 0.35, 0.5, 0, 0.65, 0.8, 0, 0.65, 0.8],
+		"texture" : [27],
+		"size" : [1, 1, 1],
+		"reflection" : true,
+		"unshade" : false,
+	},
+	
+	
+	
+	"cave2" : {
+		"modulate" : [0.6, 0.2, 0.3],
+		"texture" : [25],
+		"size" : [2, 2, 2],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	"cave2_laser" : {
+		"modulate" : [1.4, 1, 1.3, 1.4, 1, 1.3, 0.41, 0.35, 0.45],
+		"texture" : [0, 0, 25],
+		"size" : [2, 2, 2],
+		"reflection" : false,
+		"unshade" : false
+	},
+	
+	
+	
+	"river_wall" : {
+		"modulate" : [0.8, 0.9, 0.92],
+		"texture" : [5],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	"river_wall_green" : {
+		"modulate" : [0.8, 0.92, 0.9],
+		"texture" : [5, 0, 5],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	"river_ice" : {
+		"modulate" : [0.8, 0.9, 0.92, 0.96, 0.99, 1, 0.8, 0.9, 0.92],
+		"texture" : [0],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	"river_blue" : {
+		"modulate" : [0, 0.7, 0.8, 0, 0.9, 1, 0, 0.7, 0.8],
+		"texture" : [5],
+		"reflection" : true,
+		"unshade" : false,
+	},
+	"river_ice_green" : {
+		"modulate" : [0.8, 0.92, 0.9, 0.96, 1, 0.99, 0.8, 0.92, 0.9],
+		"texture" : [0],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	"river_green" : {
+		"modulate" : [0.2, 0.4, 0.3, 0.2, 0.6, 0.5, 0.2, 0.4, 0.3],
+		"texture" : [5],
+		"reflection" : true,
+		"unshade" : false,
+	},
+	"river_red" : {
+		"modulate" : [1, 0.2, 0.1, 0.9, 0.2, 0, 1.2, 0.4, 0.3],
+		"texture" : [5],
+		"reflection" : true,
+		"unshade" : false,
+	},
+	"river_score" : {
+		"modulate" : [0.2, 0.6, 0.5],
+		"texture" : [47],
+		"reflection" : true,
+		"unshade" : false,
+	},
+	"river_score_end" : {
+		"modulate" : [1, 1, 1],
+		"texture" : [0],
+		"reflection" : true,
+		"unshade" : false,
+	},
+	
+	
+	
+	"brownie" : {
+		"modulate" : [1.1, 0.2, 0.2],
+		"texture" : [58],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	"brownie_gradient" : {
+		"modulate" : [1.1, 0.2, 0.2],
+		"texture" : [59, 58, 59],
+		"rotation" : [2, 0, 2],
+		"size" : [1, 5, 1],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	"brownie2" : {
+		"modulate" : [1.6, 1.15, 1.15],
+		"texture" : [58],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	"brownie2_gradient" : {
+		"modulate" : [1.6, 1.15, 1.15],
+		"texture" : [59, 58, 59],
+		"rotation" : [2, 0, 2],
+		"size" : [1, 5, 1],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	"brownie3" : {
+		"modulate" : [1.4, 1.1, 0.95, 0, 0.8, 0.9, 1.4, 1.1, 0.95],
+		"texture" : [60, 57, 60],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	"brownie4" : {
+		"modulate" : [1, 0.4, 0.4],
+		"texture" : [60, 57, 60],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	"brownie_floor" : {
+		"modulate" :[0.5, 0.9, 1, 0, 0.8, 0.9, 0.5, 0.9, 1,],
+		"texture" : [54, 57, 54],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	"brownie_ceiling" : {
+		"modulate" : [0.5, 0, 0],
+		"texture" : [57],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	
+	
+	
+	"phosphor" : {
+		"modulate" : [0.3, 0.9, 0.5],
+		"texture" : [55],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	
+	
+	
+	"hyper" : {
+		"modulate" : [0.7, 0.6, 1],
+		"texture" : [13],
+		"reflection" : true,
+		"unshade" : false,
+	},
+	"hyper_red" : {
+		"modulate" : [1.5, 0.8, 1.3],
+		"texture" : [13],
+		"reflection" : true,
+		"unshade" : false,
+	},
+	"hyper_red2" : {
+		"modulate" : [0.7, 0.6, 1, 1.5, 0.8, 1.3, 1.5, 0.8, 1.3],
+		"texture" : [13],
+		"reflection" : true,
+		"unshade" : true,
+	},
+	"hyper_red3" : {
+		"modulate" : [1.5, 0.8, 1.3, 1.5, 0.8, 1.3, 0.7, 0.6, 1],
+		"texture" : [13],
+		"reflection" : true,
+		"unshade" : false,
+	},
+	"hyper_glow" : {
+		"modulate" : [1.3, 1.2, 1.3, 0.7, 0.6, 1, 1.3, 1.2, 1.3],
+		"texture" : [13],
+		"reflection" : true,
+		"unshade" : false,
+	},
+
+
+
+	"city" : {
+		"modulate" : [0.4, 0, 0],
+		"texture" : [14],
+		"size" : [2, 2, 2],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	"city_light" : {
+		"modulate" : [0.4, 0, 0, 1.4, 1, 0.8, 1.4, 1, 0.8],
+		"texture" : [14],
+		"reflection" : true,
+		"unshade" : false,
+	},
+	"city_light2" : {
+		"modulate" : [1.4, 1, 0.8, 0.4, 0, 0, 1.4, 1, 0.8],
+		"texture" : [14],
+		"reflection" : true,
+		"unshade" : false,
+	},
+
+
+
+	"endless" : {
+		"modulate" : [0.4, 0.4, 0.4],
+		"texture" : [27],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	
+	
+	
+	"zen" : {
+		"modulate" : [0.2, 0.3, 0.15],
+		"texture" : [27],
+		"reflection" : false,
+		"unshade" : false,
+	},
+
+
+
+	"deathstar" : {
+		"modulate" : [0.72, 0.74, 0.7],
+		"texture" : [20],
+		"reflection" : true,
+		"unshade" : false,
+	},
+	"deathstar2" : {
+		"modulate" : [0.54, 0.58, 0.5],
+		"texture" : [20],
+		"reflection" : true,
+		"unshade" : false,
+	},
+	"deathstar_circuit" : {
+		"modulate" : [0.72, 0.74, 0.7],
+		"texture" : [35],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	"deathstar_circuit2" : {
+		"modulate" : [0.72, 0.74, 0.7],
+		"texture" : [24],
+		"reflection" : false,
+		"unshade" : false,
+	},
+	"deathstar_end" : {
+		"modulate" : [0.7, 1, 1.2],
+		"texture" : [20],
+		"reflection" : false,
+		"unshade" : false,
+	}
+}
