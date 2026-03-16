@@ -49,4 +49,4 @@ When creating segments, aim to keep the XML file under 18,000 characters.
 # Tools Used
 
 knshim by [knot126](https://codeberg.org/knot126)<br>
-MeshBake by [knot126](https://codeberg.org/knot126)
+BakeMesh by [knot126](https://codeberg.org/knot126)
