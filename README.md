@@ -34,7 +34,7 @@ However, running a quick test will generate .xml.gz and .mesh files in the follo
 # It's not working :(
 If it doesn't work properly, please check the following:
 
-This will not work if the segment file is named .xml.mp3. Please do not add the .mp3 extension; use only .xml.
+This will not work if the template file is named .xml.mp3. Please do not add the .mp3 extension; use only .xml.
 
 If HyperspaceTester freezes when you press Play, try pressing Play immediately after exporting; it might work.
 
