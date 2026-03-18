@@ -79,7 +79,7 @@ namespace Python4Unity.Sample
                 );
 
                 // テンプレート読み込み
-                string temp_path = Application.persistentDataPath + "/template.xml";
+                string temp_path = Path.Combine(basePath, "template.xml");
 				string template_data = File.ReadAllText(temp_path);
 
                 Debug.Log(segment_data);
@@ -92,8 +92,8 @@ namespace Python4Unity.Sample
 				);
 
 				// ベイク後のパス
-				var baked_path = Application.persistentDataPath + "/result.mesh.mp3";
-				var compressed_seg_path = Application.persistentDataPath + "/compressed_segment.xml.gz.mp3";
+				var baked_path = Path.Combine(basePath, "result.mesh.mp3");
+				var compressed_seg_path = Path.Combine(basePath, "compressed_segment.xml.gz.mp3");
 
 				// ベイク結果をBase64からバイナリに変換
 				byte[] baked_byte = System.Convert.FromBase64String(baked);
@@ -161,11 +161,11 @@ namespace Python4Unity.Sample
 
                 if (path == "/segment/")
                 {
-                    SendFile(stream, basePath + "/compressed_segment.xml.gz.mp3");
+                    SendFile(stream, "compressed_segment.xml.gz.mp3");
                 }
                 if (path == "/mesh/")
                 {
-                    SendFile(stream, basePath + "/result.mesh.mp3");
+                    SendFile(stream, "result.mesh.mp3");
                 }
                 if (path == "/test/")
                 {
